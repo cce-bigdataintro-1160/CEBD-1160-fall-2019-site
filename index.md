@@ -6,7 +6,7 @@
 
 ## Communication
 * [Slack Channel Invitation](https://join.slack.com/t/cebd1160-fall2019/shared_invite/enQtNzI2NTU3NjAwNTMyLWY3OTQ4ZDAzYWRhNTdiYzc1NTFjNTI3NmE2YjMyYjI5NDAxZmM2OGVmNTJhZGZiN2M5YTBjM2Q4ZGQ5NzM2ZmM)
-* [CEBD 1160 Slack](http://cebd1160-fall2019.slack.com/)
+* [CEBD 1160 Slack](https://cebd1160-fall2019.slack.com/)
 
 ## Calendar
 * Every Saturday from 9:00AM to 12:00PM from September 21 to November 30
