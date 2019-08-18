@@ -1,17 +1,16 @@
 # *Introduction to Big Data Technology*
 
 ## Links
-* [Weekly Journal](https://goo.gl/forms/rlyLeBesldb04FqQ2)
-* [Ice Breaker Survey](https://goo.gl/forms/I2je3WAZsKbgPRUF3)
+* [Weekly Journal](https://forms.gle/QAe9Dm54xNwUxZqZA)
+* [Ice Breaker Survey](https://forms.gle/TR2QyAsCyKsi11PMA)
 
 ## Communication
-* [Slack Channel Invitation](https://join.slack.com/t/cebd1160-spr2019/shared_invite/enQtNTcxNjk2Mzk2Mjc5LWRiNzg5YzdlYzhjNDdhYzEzODRmNjhhM2Q3NzFiYzJiZTRkZTE0ZDIyOWQzZGZkY2VhNGEzOTM4Y2YzY2NmZmE)
-* [CEBD 1160 Slack](https://cebd1160-spring2019.slack.com/)
+* [Slack Channel Invitation](https://join.slack.com/t/cebd1160-fall2019/shared_invite/enQtNzI2NTU3NjAwNTMyLWY3OTQ4ZDAzYWRhNTdiYzc1NTFjNTI3NmE2YjMyYjI5NDAxZmM2OGVmNTJhZGZiN2M5YTBjM2Q4ZGQ5NzM2ZmM)
+* [CEBD 1160 Slack](http://cebd1160-fall2019.slack.com/)
 
 ## Calendar
-* Every Saturday from April 6 to June 15
-* THERE WILL BE NO CLASS ON these Holiday's weekends: 20/april and 18/may!!!
-* Class on June 15 will run from 9:00 to 11:00
+* Every Saturday from 9:00AM to 12:00PM from September 21 to November 30
+* THERE WILL BE NO CLASS ON these Holiday's weekends: 12/october!!!
 
 ## Course Outline
 1. [Intro 2 Programming & Big Data](./1-intro.md)
@@ -33,6 +32,11 @@
 * Journaling (10%)
 
 * Homework (50%)
+
+### Expectations
+ - Homework and Journals will be due before the start of  the following class
+ - Students must get at least a 50% grade in each component of the course
+ - Everybody has 2 late days which can be used on homework, but not the project
 
 ### Project 
 * Solve a real-world problem using data science techniques
@@ -56,7 +60,3 @@
   2.  Advanced (3/10) This will require the extension of what we did in class
   3.	Reach (1/10) This will be a difficult task that uses what we learned in class
 
-### Expectations
- - Homework and Journals will be due before the start of  the following class
- - Students must get at least a 50% grade in each  component of the course
- - Everybody has 2 late days which can be used on  homework, but not the project
