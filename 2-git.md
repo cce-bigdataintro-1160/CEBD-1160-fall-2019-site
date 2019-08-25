@@ -28,18 +28,6 @@ How do you currently collaborate in your work? What's the versioning system used
 9. Check the files using `ls`, then checkout your second commit, check what happened to the files now
 10. Checkout your master branch, check what happened to the files
 
-##### Undoing things
-1. Undo a non-staged change in one of the files
-2. Undo a staged change in one of the files
-3. Undo a commited change in one of the files
-4. Reset your master branch to an older commit (your changes will be lost, add a new fake commit if you don't want to lose it!)
-
-##### Create a branch to split your development
-1. Create a branch called `new-data` and add a commit to it with a new file called `data2.csv`.
-2. Checkout your `master` and check the files that you see. 
-3. Create another branch from `master` and check the files that you see. Add two commits to it in any files.
-3. Checkout your master again and checking the files at each step, merge both branches into it.
-4. Visualize with `git log --graph --oneline --decorate --all` what happened.
 
 ##### Collaborate using git
 1. Create a repository `class2-notebook` in GitHub and clone it.
@@ -54,6 +42,9 @@ How do you currently collaborate in your work? What's the versioning system used
 * [Choose a license](https://choosealicense.com/): A GitHub Page to help you decide which is the right license for your project
 
 1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
+
+### Additional Exercises Material
+* [Extra exercises](./2-git-exercises.md): Additional exercises to practice Git
 
 ### Recommended References
 * [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) All git commands in a single cheatsheet

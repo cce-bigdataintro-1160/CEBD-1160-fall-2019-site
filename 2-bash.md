@@ -65,7 +65,7 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 9. Split the train.csv file in multiple files with 20 lines each. 
 
 ### Additional Exercises Material
-* [Extra exercises](./2-bash-exercises.md): Additional exercises to practice each Python topic
+* [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Shell
 
 ### Recommended References
 * [Shell Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf): All shell commands in a single cheatsheet

@@ -2,7 +2,10 @@
 
 ### Agenda
 * Bash and Git Homework Check
-* Intro to Python
+* Intro 2 Python
+* The Python Shell
+* Writing a Python script
+* Reading datasets with Python
 * Homework
 
 ### Intro to Python
