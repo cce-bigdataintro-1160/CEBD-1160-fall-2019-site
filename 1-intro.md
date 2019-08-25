@@ -14,10 +14,6 @@
 * Be able to recognize a dataset and formulate a question for it  
 * Be able to differentiate a regression and classification problem
 
-### Optional homework
-* Research what is an operating system shell/terminal. What's its purpose?
-* Research what is a versioning control system. What's its purpose?
-
 ### Recommended References
 * [Asking the right questions](https://towardsdatascience.com/how-to-ask-the-right-questions-as-a-data-scientist-913621907411)
 * [Enhancing the right questions](https://towardsdatascience.com/how-to-ask-questions-data-science-can-solve-e073d6a06236)

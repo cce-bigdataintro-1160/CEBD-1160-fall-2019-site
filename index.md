@@ -13,10 +13,11 @@
 * THERE WILL BE NO CLASS ON these Holiday's weekends: 12/october!!!
 
 ## Course Outline
-1. [Intro 2 Programming & Big Data](./1-intro.md)
-2. [Intro 2 Linux & Version Control](./2-bash-git.md)
+1. [Intro 2 Course & Big Data](./1-intro.md)
+2. [Operating the shell](2-bash.md)
+3. [Version Control](2-git.md)
 3. [Python Data Structures and Conditionals](./3-python.md)
-4. [Intro 2 Containerization & Shipping Software](./4-docker.md)
+4. [Containerization & Shipping Software](./4-docker.md)
 5. [Python Loops and Functions](./5-pythonadv.md)
 7. [Python Data Visualization](./7-viz.md)
 8. [Python Machine Learning](./8-ml.md)
