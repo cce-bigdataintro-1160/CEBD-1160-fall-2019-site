@@ -2,7 +2,7 @@
 
 ### Agenda
 * Intro Slides: Introductions Slides used on the first class
-* Ensuring our communication on [Slack](https://join.slack.com/t/cebd1160-fall2019/shared_invite/enQtNzI2NTU3NjAwNTMyLWY3OTQ4ZDAzYWRhNTdiYzc1NTFjNTI3NmE2YjMyYjI5NDAxZmM2OGVmNTJhZGZiN2M5YTBjM2Q4ZGQ5NzM2ZmM)
+* Ensuring our communication on [Slack](https://join.slack.com/t/cebd1160-fall2019/shared_invite/enQtNzY4Mjk1NjYzNzYwLWIxNjFmZWQ5Mzc2MTY1NmE0OWQ0ZDNlNWIxMjc3NzZlMjg2YTI5MWViYTc5ZmJmMGY1OThjMWNhODZmZDhlYmI)
 * [Reviewing Toys Datasets](https://scikit-learn.org/stable/datasets/index.html#toy-datasets): All the `Toys Datasets` available in the sklearn datasets module
 * Homework
 
