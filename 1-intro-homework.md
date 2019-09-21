@@ -10,7 +10,7 @@
 1. formulate a scientific question for your dataset
   
 ##### Reach
-1. write the steps (or make a flowchart) detailing your preliminary idea of how to answer it
+1. write the steps detailing your preliminary idea of how to answer it
 
 2. setup your home computer to use shell. the recommended ways to do this in windows:(only one of these steps is necessary!)
 2.1  Install git bash (https://git-scm.com/downloads)
