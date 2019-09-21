@@ -1,17 +1,15 @@
-### Homework
-* Don't forget to fill up the Weekly Journal! 
-
-##### Basic
+```### Journal
+* Don't forget to fill up the Weekly Journal: https://forms.gle/QAe9Dm54xNwUxZqZA
+```
+```##### Basic
 1. make sure you can access the Slack channels for CEBD-1160!
 2. create a Github account at https://github.com/
 2. Project Kick-Off: pick a dataset from the sklearn toys dataset 
-3. Send to me as a private message through slack: your github account url and the dataset you chose
-
-##### Advanced
+3. Send to me as a private message through slack: your github account url and the dataset you chose```
+```##### Advanced
 1. formulate a research question for your dataset - it can be a one line question or a more complex development. 
-2. Send to me as a private message
-  
-##### Reach
+2. Send to me as a private message```
+```##### Reach
 1. write the steps detailing your preliminary idea of how to answer it (can be very brief). 
 2. Send to me as a private message
 
@@ -24,8 +22,7 @@
    * Import the OVA image using the following steps: https://www.maketecheasier.com/import-export-ova-files-in-virtualbox/
    * Launch your virtual environment double clicking on the Ubuntu machine!
 
-* For the installations, just a message confirming you succeeded the installations is enough
-
-### Optional homework
+* For the installations, just a message confirming you succeeded the installations is enough```
+```### Optional homework(no grading)
 * Research what is an operating system shell/terminal. What's its purpose?
-* Research what is a versioning control system. What's its purpose?
+* Research what is a versioning control system. What's its purpose?```
