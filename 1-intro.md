@@ -8,6 +8,7 @@
 
 ### Goals
 * Understand the course format, objectives and grading
+* Align our expectations regarding course outline, technologies and scope 
 * Understand what is Big Data:
   * the ecosystem
   * the main characteristics: Volume, Variety, Velocity, Veracity, Value
