@@ -31,8 +31,10 @@
 
 ### Be able to Navigate through the file system:
 * [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard): The basic file system organization in Linux
+* [Navigation shell commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/1-navigation_shell_commands.sh)
+* [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
 
-1. Find out what's your username. Find your home folder and list its contents.
+1. Find out what's your username. Find your home directory and list its contents.
 2. Navigate to `/` and list the contents of this directory. Why is this a special directory?
 3. Navigate to `/var/log` and list its files. What do we have here?
 4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, why is the new current directory special?
@@ -40,10 +42,11 @@
 6. From your home directory test both commands below and explain the difference:
     `cd Desktop`
     `cd /Desktop`
-7. What command can give you the most recently modified file in your home directory?
+7. What command can give you the most recently modified file in your home directory? Hint, use ls --help to find the right tool to use.
 8. Download the file titanic.zip from Slack and locate it through the Terminal by listing it
 
 ### Work with Files and Directories
+* [Working with files](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-files_dirs_shell_commands.sh)
 
 1. Create a directory called `learning-shell` in your home directory.
 2. Download the file `random-datasets` from Slack. Copy it from your `~/Downloads` directory into your `learning-shell` directory and unzip it using `unzip random-datasets.zip`. Do not use the UI for these steps!
@@ -58,6 +61,8 @@
 11. Check all of your changes using the MacOS UI
 
 ### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
+* [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/3-advanced_shell_commands.sh)
+* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
 
 1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
 2. Provide the shape/dimensions of the file `train.csv`?
@@ -75,8 +80,6 @@
 ### Recommended References
 * [Shell Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf): All shell commands in a single cheatsheet
 * [Shell Interactive Manual](https://explainshell.com/): A web version of the man and the help of all shell commands
-* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
-* [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
 * [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/): A full lesson teaching how to use the shell from A to Z. We'll be doing this as part of the homework for this week.
 
 ### Advanced exercises material
