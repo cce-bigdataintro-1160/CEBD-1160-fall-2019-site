@@ -12,7 +12,14 @@
 
 ### A brief introduction to OS and Linux
 * [Operating Systems](https://en.wikipedia.org/wiki/Operating_system)
-![]('./bash-git-files/os.png')
+![](./bash-git-files/os.png =200x200)
+* An operating system provides facilities to interface between applications and hardware using low level libraries and drivers.
+* The most important resources it will manage are:
+  * Inputs
+  * Outputs
+  * In-Memory (or Processing) state
+  * Persistent (or Storage) state
+
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions
 
