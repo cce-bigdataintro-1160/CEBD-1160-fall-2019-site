@@ -7,31 +7,27 @@
 * Be able to Navigate through the file system
 * Work with Files and Directories
 * Use External Tools and Gnu Core Tools to enhance your shell skills
-* Write loops to iterate over lists
 * Homework
 
 ### A brief introduction to OS and Linux
 * [Operating Systems](https://en.wikipedia.org/wiki/Operating_system)
-![](./bash-git-files/os.png =200x200)
 * An operating system provides facilities to interface between applications and hardware using low level libraries and drivers.
 * The most important resources it will manage are:
-  * Inputs
-  * Outputs
-  * In-Memory (or Processing) state
-  * Persistent (or Storage) state
-
+  * Inputs: Mouse, Keyboard, Sensors, Network
+  * Outputs: UI, Disk, Network 
+  * Processing (or In-Memory) state: Applications, scripts, programs
+  * Storage (or Persistent) state: File systems/Disk
+  
+* Big Data Software will try to leverage these resources to work in a coordinated and distributed way. 
+* [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata): An exhaustive list of Big Data open software. Most of it was built for Linux distributions.
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions
 
 ### The Shell
+* Bash is a command processor that typically runs in a text window where the user types commands that cause actions.
+
 * [The shell](./bash-git-files/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)): A wikipedia page on the most popular Linux shell
-
-### Goals
-Establish the foundation for our data analysis by understanding how a file system works through the Linux shell:
-* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
-* [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
-* [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/): A full lesson teaching how to use the shell from A to Z. We'll be doing this as part of the homework for this week.
 
 ### Be able to Navigate through the file system:
 * [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard): The basic file system organization in Linux
@@ -79,6 +75,9 @@ Establish the foundation for our data analysis by understanding how a file syste
 ### Recommended References
 * [Shell Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf): All shell commands in a single cheatsheet
 * [Shell Interactive Manual](https://explainshell.com/): A web version of the man and the help of all shell commands
+* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
+* [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
+* [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/): A full lesson teaching how to use the shell from A to Z. We'll be doing this as part of the homework for this week.
 
 ### Advanced exercises material
 * [cmdchallenge](https://cmdchallenge.com/): Can you complete these challenges from 
