@@ -18,13 +18,13 @@
 * [The shell](./bash-git-files/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)): A wikipedia page on the most popular Linux shell
 
-##### Goals
+### Goals
 Establish the foundation for our data analysis by understanding how the Linux shell works:
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all shell commands
 * [The man command - manual](http://www.linfo.org/man.html): The utility to read the manual for any shell command
 * [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/): A Software Carpentry lesson for Shell
 
-##### Be able to Navigate through the file system:
+### Be able to Navigate through the file system:
 * [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard): The basic file system organization in Linux
 
 1. Find out what's your username. Find your home folder and list its contents.
@@ -38,7 +38,7 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 7. What command can give you the most recently modified file in your home directory?
 8. Download the file titanic.zip from Slack and locate it through the Terminal by listing it
 
-##### Work with Files and Directories
+### Work with Files and Directories
 
 1. Create a directory called `learning-shell` in your home directory.
 2. Download the file `random-datasets` from Slack. Copy it from your `~/Downloads` directory into your `learning-shell` directory and unzip it using `unzip random-datasets.zip`. Do not use the UI for these steps!
@@ -52,7 +52,7 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 10. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 11. Check all of your changes using the MacOS UI
 
-##### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
+### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
 
 1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
 2. Provide the shape/dimensions of the file `train.csv`?
