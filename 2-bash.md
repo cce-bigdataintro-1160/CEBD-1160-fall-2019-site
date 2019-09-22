@@ -39,26 +39,33 @@
 3. Navigate to `/var/log` and list its files. What do we have here?
 4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, why is the new current directory special?
 5. Test the following commands: `cd .`, `cd ..`, `cd /` and  `cd ~`. Can you explain what each of those symbols mean?
-6. From your home directory test both commands below and explain the difference:
-    `cd Desktop`
-    `cd /Desktop`
+6. From your home directory test both commands and explain the difference: `cd Desktop` and `cd /Desktop`
 7. What command can give you the most recently modified file in your home directory? Hint, use ls --help to find the right tool to use.
-8. Download the file titanic.zip from Slack and locate it through the Terminal by listing it
+8. Download the file titanic.zip from Slack using the UI and locate it through the Terminal by navigating and listing it
 
 ### Work with Files and Directories
 * [Working with files](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-files_dirs_shell_commands.sh)
 
 1. Create a directory called `learning-shell` in your home directory.
-2. Download the file `random-datasets` from Slack. Copy it from your `~/Downloads` directory into your `learning-shell` directory and unzip it using `unzip random-datasets.zip`. Do not use the UI for these steps!
-3. The files are highly unorganized! Lets organize this by first moving all files that start with `total-public-construction-spending` into the directory `total-public-construction-spending-data`. Second, move all the remaining files that have a `.json` extension into `country-data`. Third, move the `Iris.csv` file into `iris-species`.
+2. Download the file `random-datasets` from Slack. 
+   * Copy it from your `~/Downloads` directory into your `learning-shell` directory 
+   * unzip it using `unzip random-datasets.zip` 
+   * Do not use the UI for these steps!
+
+3. The files inside it are highly unorganized! 
+   * Lets organize this by first moving all files that start with `total-public-construction-spending` into the directory `total-public-construction-spending-data` 
+   * Second, move all the remaining files that have a `.json` extension into `country-data` 
+   * Third, move the `Iris.csv` file into `iris-species`
+
 4. This looks much better, but now rename the file `master.csv` to `suicides_dataset.csv`
 5. Delete the duplicated `iris-species copy` directory.
 6. Create three new directories: `csv`, `json` and `mixed`
-7. Move `country-data` directory to `json` directory, move the `total-public-construction-spending-data` into the `mixed` directory and finally move all the remaining files and directories in `csv`
-8. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory, name it as `learning-shell-bkp`
-9. Look at those files contents by printing some files in your directories using `cat` or `less`. Experiment with `absolute` and `relative` paths.
-10. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
-11. Check all of your changes using the MacOS UI
+7. Move `country-data` directory to `json` directory
+8. Move the `total-public-construction-spending-data` into the `mixed` directory and finally move all the remaining files and directories in `csv`
+9. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory, name it as `learning-shell-bkp`
+10. Look at those files contents by printing some files in your directories using `cat` or `less`. Experiment with `absolute` and `relative` paths.
+11. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
+12. Check all of your changes using the UI
 
 ### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
 * [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/3-advanced_shell_commands.sh)
