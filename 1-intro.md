@@ -16,9 +16,10 @@
 * Be able to differentiate a regression and classification problem
 
 ### Recommended References
-* [Asking the right questions](https://towardsdatascience.com/how-to-ask-the-right-questions-as-a-data-scientist-913621907411)
-* [Enhancing the right questions](https://towardsdatascience.com/how-to-ask-questions-data-science-can-solve-e073d6a06236)
-* [Difference between regression and classification problems](https://www.datascience.com/blog/regression-and-classification-machine-learning-algorithms)
+* [Asking the right questions](https://towardsdatascience.com/how-to-ask-the-right-questions-as-a-data-scientist-913621907411): Interesting artible one how to find the correct questions to ask to a dataset 
+* [Enhancing the right questions](https://towardsdatascience.com/how-to-ask-questions-data-science-can-solve-e073d6a06236): Another article, now focusing on making sure your questions are not only good but also realistical 
+* [Bloom's Taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy): A taxonomy that can be used to gauge what's your level of knowledge on a given topic, helping you to classify your questions by levels of complexity.
+* [Difference between regression and classification problems](https://www.datascience.com/blog/regression-and-classification-machine-learning-algorithms): Article on the difference between Regression and Classification problems.  
 
-* [Big Data in Wikipedia](https://en.wikipedia.org/wiki/Big_data)
+* [Big Data in Wikipedia](https://en.wikipedia.org/wiki/Big_data): Common definition for the Big Data term
 * [GitHub](https://github.com/): GitHub portal a web-based hosting service for Version Control using Git

@@ -14,7 +14,7 @@
 2. Send to me as a private message
 
 3. setup your home computer to use shell. the recommended ways to do this in windows:*(only one of these steps is necessary!)*
-3.1  Install git bash (https://git-scm.com/downloads)
+3.1.  Install git bash (https://git-scm.com/downloads)
 3.2. Install the WSL (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 3.3. Use a VirtualBox image!!! 
    * Install VirtualBox https://www.virtualbox.org/
