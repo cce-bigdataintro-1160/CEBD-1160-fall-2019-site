@@ -30,6 +30,7 @@
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)): A wikipedia page on the most popular Linux shell
 
 ### Be able to Navigate through the file system:
+* We'll now learn the basics in order to navigate in a file system
 * [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard): The basic file system organization in Linux
 * [Navigation shell commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-navigation_shell_commands.sh)
 * [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
@@ -45,7 +46,7 @@
 
 ### Work with Files and Directories
 * Let's spend some time getting to know the most basic file operations we can do on a file system.
-* [Working with files](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-files_dirs_shell_commands.sh)
+* [Working with files](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/3-files_dirs_shell_commands.sh)
 
 1. Create a directory called `learning-shell` in your home directory
 2. Download the file `random-datasets` from Slack
@@ -57,14 +58,16 @@
 8. Delete the `capital.json` file.
 9. Delete the `delete-me` directory.
 10. Create two new directories: `csv` and `mixed`
-11. Move the `construction-data` into the `mixed` directory and
+11. Move the `construction-data` directory into the `mixed` directory
 12. Move the heart.csv file in `csv`
 13. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory
 14. Check all of your changes using the UI
 15. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 
 ### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
-* [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/3-advanced_shell_commands.sh)
+* A quick view on other tools available to explore files
+* [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
+* [Finding file and text](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/5-advanced_shell_commands.sh)
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
 
 1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
@@ -76,6 +79,18 @@
 7. Print only the lines 3 to 5 of the file?
 8. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
 9. Split the train.csv file in multiple files with 20 lines each. 
+
+### Final notes on Linux and Shell
+* The concepts we learned today apply for pretty much any filesystem, including the ones used for Big Data like HDFS, S3, GCS and AS
+* Manipulating data in shell can save you a lot of time as those tools tend to be extremely lightweight
+* A few real life use cases for using the shell to deal with data are:
+  - organization (mv, rm, cp, split)
+  - exploration (wc, grep, find, ls, cat)
+  - cleaning (cut, uniq, sort)
+  - validation and detecting corrupted files (head, tail, md5, wc)
+  - maintenance and capture using a cron scheduler (cron)
+  - cleanup and backup (cp, rm)
+
 
 ### Additional Exercises Material
 * [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Shell
