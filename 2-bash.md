@@ -89,6 +89,7 @@
   - validation and detecting corrupted files (head, tail, md5, wc)
   - maintenance and capture using a cron scheduler (cron, curl, wget)
   - cleanup and backup (cp, rm)
+* Mastering the shell is essential if you want to engage in a Big Data Devops / Dataops career! Most tools installation and maintenance will require understanding of these concepts.
 
 ### Additional Exercises Material
 * [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Shell
