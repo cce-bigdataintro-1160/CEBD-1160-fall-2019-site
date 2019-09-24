@@ -74,11 +74,10 @@
 2. Provide the shape/dimensions of the file `train.csv`?
 3. List the first 5 rows of the file. Now list the last 5.
 4. Print this file in your screen using `cat` now use the `less` command.
-5. Can you print only the names of all people in the file?
-6. Print this file last 5 lines save the output to train_tail.csv
-7. Print only the lines 3 to 5 of the file?
-8. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
-9. Split the train.csv file in multiple files with 20 lines each. 
+5. Print this file last 5 lines save the output to train_tail.csv
+6. Print only the lines 3 to 5 of the file?
+7. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it?
+8. Split the train.csv file in multiple files with 20 lines each.
 
 ### Final notes on Linux and Shell
 * The concepts we learned today apply for pretty much any filesystem, including the ones used for Big Data like HDFS, S3, GCS and AS
