@@ -88,9 +88,8 @@
   - exploration (wc, grep, find, ls, cat)
   - cleaning (cut, uniq, sort)
   - validation and detecting corrupted files (head, tail, md5, wc)
-  - maintenance and capture using a cron scheduler (cron)
+  - maintenance and capture using a cron scheduler (cron, curl, wget)
   - cleanup and backup (cp, rm)
-
 
 ### Additional Exercises Material
 * [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Shell
