@@ -76,7 +76,7 @@
 4. Print this file in your screen using `cat` now use the `less` command.
 5. Print this file last 5 lines save the output to train_tail.csv
 6. Print only the lines 3 to 5 of the file?
-7. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it?
+7. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
 8. Split the train.csv file in multiple files with 20 lines each.
 
 ### Final notes on Linux and Shell
