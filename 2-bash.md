@@ -10,28 +10,28 @@
 * Homework
 
 ### A brief introduction to OS and Linux
-* [Operating Systems](https://en.wikipedia.org/wiki/Operating_system)
-* An operating system provides facilities to interface between applications and hardware using low level libraries and drivers.
+* [Operating Systems](https://en.wikipedia.org/wiki/Operating_system): An operating system provides facilities to interface between applications and hardware using low level libraries and drivers.
 * The most important resources it will manage are:
   * Inputs: Mouse, Keyboard, Sensors, Network
   * Outputs: UI, Disk, Network 
   * Processing (or In-Memory) state: Applications, scripts, programs
   * Storage (or Persistent) state: File systems/Disk
   
-* Big Data Software will try to leverage these resources to work in a coordinated and distributed way. 
-* [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata): An exhaustive list of Big Data open software. Most of it was built for Linux distributions.
+* Big Data Software will try to leverage these resources to work in a coordinated and distributed way across many nodes
+* [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata): In this link we have an exhaustive list of Big Data open software. Most of it was built to run on Linux distributions only.
+* [Cloudera Open Source](https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html) Another list, now composed of Cloudera's open source software for Big Data, also meant to be run on Linux platform.
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
-* [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions
+* [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions. The most widely used are Ubuntu, Debian and CentOS(RedHat)
 
 ### The Shell
-* Bash is a command processor that typically runs in a text window where the user types commands that cause actions.
+* Bash is an implementation of a shell: a command processor that typically runs in a text window where the user types commands that cause actions.
 
 * [The shell](./bash-git-files/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)): A wikipedia page on the most popular Linux shell
 
 ### Be able to Navigate through the file system:
 * [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard): The basic file system organization in Linux
-* [Navigation shell commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/1-navigation_shell_commands.sh)
+* [Navigation shell commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-navigation_shell_commands.sh)
 * [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
 
 1. Find out what's your username. Find your home directory and list its contents.
@@ -40,32 +40,28 @@
 4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, why is the new current directory special?
 5. Test the following commands: `cd .`, `cd ..`, `cd /` and  `cd ~`. Can you explain what each of those symbols mean?
 6. From your home directory test both commands and explain the difference: `cd Desktop` and `cd /Desktop`
-7. What command can give you the most recently modified file in your home directory? Hint, use ls --help to find the right tool to use.
-8. Download the file titanic.zip from Slack using the UI and locate it through the Terminal by navigating and listing it
+7. What command can give you the most recently modified file in your home directory? Hint, use `man ls` to find the right flags to use.
+8. Download the file titanic.zip from Slack using the UI and locate it through the Terminal by navigating and listing it. Tip: it will be in your Downloads directory, inside the your home directory.
 
 ### Work with Files and Directories
+* Let's spend some time getting to know the most basic file operations we can do on a file system.
 * [Working with files](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-files_dirs_shell_commands.sh)
 
-1. Create a directory called `learning-shell` in your home directory.
-2. Download the file `random-datasets` from Slack. 
-   * Copy it from your `~/Downloads` directory into your `learning-shell` directory 
-   * unzip it using `unzip random-datasets.zip` 
-   * Do not use the UI for these steps!
-
-3. The files inside it are highly unorganized! 
-   * Lets organize this by first moving all files that start with `total-public-construction-spending` into the directory `total-public-construction-spending-data` 
-   * Second, move all the remaining files that have a `.json` extension into `country-data` 
-   * Third, move the `Iris.csv` file into `iris-species`
-
-4. This looks much better, but now rename the file `master.csv` to `suicides_dataset.csv`
-5. Delete the duplicated `iris-species copy` directory.
-6. Create three new directories: `csv`, `json` and `mixed`
-7. Move `country-data` directory to `json` directory
-8. Move the `total-public-construction-spending-data` into the `mixed` directory and finally move all the remaining files and directories in `csv`
-9. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory, name it as `learning-shell-bkp`
-10. Look at those files contents by printing some files in your directories using `cat` or `less`. Experiment with `absolute` and `relative` paths.
-11. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
-12. Check all of your changes using the UI
+1. Create a directory called `learning-shell` in your home directory
+2. Download the file `random-datasets` from Slack
+3. Copy it from your `~/Downloads` directory into your `learning-shell` directory
+4. Unzip it using `unzip random-datasets.zip`
+5. Look at those files contents by printing some files in your directories using `cat` or `less`
+6. Lets organize this by first moving all files that start with `construction-spending` into the directory `construction-data`
+7. Rename `Iris.csv` into `Iris_Classification.csv` and move it into `iris-species`
+8. Delete the `capital.json` file.
+9. Delete the `delete-me` directory.
+10. Create two new directories: `csv` and `mixed`
+11. Move the `construction-data` into the `mixed` directory and
+12. Move the heart.csv file in `csv`
+13. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory
+14. Check all of your changes using the UI
+15. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 
 ### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
 * [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/3-advanced_shell_commands.sh)
