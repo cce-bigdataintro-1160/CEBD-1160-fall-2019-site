@@ -67,7 +67,7 @@
 ### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
 * A quick view on other tools available to explore files
 * [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
-* [Finding file and text](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/5-advanced_shell_commands.sh)
+* [Finding file and text](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/5-finding_things_shell_commands.sh)
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
 
 1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
