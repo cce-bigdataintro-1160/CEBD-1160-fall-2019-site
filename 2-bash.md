@@ -33,6 +33,7 @@
 * [Navigation shell commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-navigation_shell_commands.sh)
 * [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
 
+* Do the following exercise in pairs:
 1. Find out what's your username. Find your home directory and list its contents.
 2. Navigate to `/` and list the contents of this directory. Why is this a special directory?
 3. Navigate to `/var/log` and list its files. What do we have here?
@@ -46,6 +47,7 @@
 * Let's spend some time getting to know the most basic file operations we can do on a file system.
 * [Working with files](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/3-files_dirs_shell_commands.sh)
 
+* Do the following exercise in pairs:
 1. Create a directory called `learning-shell` in your home directory
 2. Download the file `random-datasets` from Slack
 3. Copy it from your `~/Downloads` directory into your `learning-shell` directory
@@ -68,6 +70,7 @@
 * [Finding file and text](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/5-finding_things_shell_commands.sh)
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
 
+* Do the following exercise in pairs:
 1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
 2. Provide the shape/dimensions of the file `train.csv`?
 3. List the first 5 rows of the file. Now list the last 5.

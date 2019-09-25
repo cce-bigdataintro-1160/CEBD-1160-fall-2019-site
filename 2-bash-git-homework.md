@@ -4,12 +4,12 @@
 ##### Basic
 1. Make sure you have your a `shell` (like `bash`) installed
 2. Install `python`, recommended steps can be found here: [Python Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier due to Windows lack of support for the Shell.
-3. Complete the [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/) lesson
+3. Complete the [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/) lesson. Send me a message stating where you stopped.
 4. Send me what these command do: 
    `wc -l * | head -n 3 | sort -n`
    
 ##### Advanced
-1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/)
+1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/). Send me a message stating where you stopped.
   
 ##### Reach
 1. Be a `git` master! That is, do the following *from scratch*:

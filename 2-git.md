@@ -19,7 +19,7 @@
   * Availability of Code revision 
   * Automation of build chains
 
-* How do you currently collaborate in your work? What's the versioning system used there?
+* How do you currently collaborate in your work? What's the versioning system used there? Some friendlier version include Google Docs and Sharepoint
 
 ### Why git
 * [Git Reference](https://git-scm.com/docs): A reference to all git commands
@@ -35,7 +35,9 @@
 * In order to use git we'll need to initialize a repository, add files to it and commit them
 * To understand what's happening, we'll use the `status` and `log` commands 
 * Finally we'll see how the checkout command allows us to navigate across commits
+* command tips
 
+* Do the following exercise in pairs:
 1. Create a directory called `my-first-repo`. 
 2. Navigate to it and initialize a git repository with `git init`. Check it with `git status` 
 3. Create the files `cleaner.py`, `processor.py`, `submit.py`, `data.csv`, write a few lines in each. Check the `git status` 
@@ -51,25 +53,32 @@
 * Git allows for collaboration through the use of remote repositories
 * Remote repositories are accessible by multiple users that can synchronize to through the use of the pull and push commands
 * Here are a some of the existing [Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows) possible with git
-* [GitHub](https://github.com/) is one of the most used git servers, allowing users not only to have shared repositories but to also collaborate using other tools like wikis, issue trackers and others
+* [GitHub](https://github.com/) is one of the most used git remote servers, allowing users not only to have shared repositories but to also collaborate using other tools like wikis, issue trackers and others
 * We'll now learn how to synchronize our work with GitHub which will be our main point of collaboration for this course
- 
-1. Create a repository `class2-notebook` in GitHub and clone it.
-2. In the cloned repository you must create, add and commit a file called `README.MD`.
-2. Push your changes to GitHub in order to ensure the changes are stored in your `remote`
-3. Use GitHub UI in your browser to modify the file and commit it.
-4. Pull all the changes that happened remotely to your local git repository.
-5. Add your class notes to this notebook, commit and push it again.
+* command tips
+
+* Do the following exercise in pairs: 
+1. Create a repository `class2-notebook` in GitHub
+2. Use the `git clone <repository url>` command to clone it locally.
+3. In the cloned repository you must create, add and commit a file called `README.MD`.
+4. Push your changes to GitHub in order to ensure the changes are stored in your `remote`
+5. Use GitHub UI in your browser to modify the file and commit it.
+6. Pull all the changes that happened remotely to your local git repository.
+7. Add your class notes to this notebook, commit and push it again.
 
 ### Understand what licensing is
 * [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository): A GitHub guide on how to license a repository
 * [Choose a license](https://choosealicense.com/): A GitHub Page to help you decide which is the right license for your project
 
+* Do the following exercise in pairs:
 1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
 
 ### Final notes on Linux and Shell
 * Let's review what we've learned today
-* Other ways to use git
+* portfolio
+* open source projects includ python
+* Other ways to use git, how we'll use it for the course
+relationship big data open source and git
 
 ### Additional Exercises Material
 * [Extra exercises](./2-git-exercises.md): Additional exercises to practice Git
@@ -80,5 +89,5 @@
 * [Git Documentation](https://git-scm.com/doc): The Official documentation for using git
 
 ### Advanced exercises material
-* [Git Branching](https://learngitbranching.js.org/): Learn what git does visually with 
+* [Git Branching](https://learngitbranching.js.org/): Learn what git does in a visual way with this website
 * [Official Pro Git Book](https://git-scm.com/book/en/v2): The Official Pro Git Book
