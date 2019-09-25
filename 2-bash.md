@@ -1,13 +1,11 @@
 # Intro 2 Linux & Version Control
 
-### Agenda
-* Homework Check
+### Objectives
 * A brief introduction to OS and Linux
-* The Shell
+* Learn what's the shell
 * Be able to Navigate through the file system
 * Work with Files and Directories
 * Use External Tools and Gnu Core Tools to enhance your shell skills
-* Homework
 
 ### A brief introduction to OS and Linux
 * [Operating Systems](https://en.wikipedia.org/wiki/Operating_system): An operating system provides facilities to interface between applications and hardware using low level libraries and drivers.
@@ -23,7 +21,7 @@
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions. The most widely used are Ubuntu, Debian and CentOS(RedHat)
 
-### The Shell
+### Learn what's the shell
 * Bash is an implementation of a shell: a command processor that typically runs in a text window where the user types commands that cause actions.
 
 * [The shell](./bash-git-files/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
@@ -80,6 +78,7 @@
 8. Split the train.csv file in multiple files with 20 lines each.
 
 ### Final notes on Linux and Shell
+* Let's review what we've learned today
 * The concepts we learned today apply for pretty much any filesystem, including the ones used for Big Data like HDFS, S3, GCS and AS
 * Manipulating data in shell can save you a lot of time as those tools tend to be extremely lightweight
 * A few real life use cases for using the shell to deal with data are:
