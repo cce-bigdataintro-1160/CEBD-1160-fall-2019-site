@@ -35,7 +35,7 @@
 * In order to use git we'll need to initialize a repository, add files to it and commit them
 * To understand what's happening, we'll use the `status` and `log` commands 
 * Finally we'll see how the checkout command allows us to navigate across commits
-* command tips
+* [Git Commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/6-git_commands.sh)
 
 * Do the following exercise in pairs:
 1. Create a directory called `my-first-repo`. 
@@ -55,7 +55,7 @@
 * Here are a some of the existing [Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows) possible with git
 * [GitHub](https://github.com/) is one of the most used git remote servers, allowing users not only to have shared repositories but to also collaborate using other tools like wikis, issue trackers and others
 * We'll now learn how to synchronize our work with GitHub which will be our main point of collaboration for this course
-* command tips
+* [Remote Git Commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/7-git_remote_commands.sh)
 
 * Do the following exercise in pairs: 
 1. Create a repository `class2-notebook` in GitHub
