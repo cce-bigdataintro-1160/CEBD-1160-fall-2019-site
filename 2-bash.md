@@ -29,6 +29,9 @@
 
 ### Be able to Navigate through the file system:
 * We'll now learn the basics in order to navigate in a file system
+
+![](bash-git-files/fshierarchy.png)
+
 * [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard): The basic file system organization in Linux
 * [Navigation shell commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/2-navigation_shell_commands.sh)
 * [The man command - manual](http://www.linfo.org/man.html): A utilitary tool to read the manual for any shell command
