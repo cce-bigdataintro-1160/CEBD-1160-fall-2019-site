@@ -27,7 +27,7 @@
 * [The shell](./bash-git-files/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)): A wikipedia page on the most popular Linux shell
 
-### Be able to Navigate through the file system:
+### Be able to Navigate through the file system
 * We'll now learn the basics in order to navigate in a file system
 
 ![](bash-git-files/fshierarchy.png)
@@ -67,7 +67,7 @@
 14. Check all of your changes using the UI
 15. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 
-### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters
+### Use External Tools and Gnu Core Tools to enhance your shell skills
 * A quick view on other tools available to explore files
 * [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
 * [Finding file and text](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/5-finding_things_shell_commands.sh)
@@ -94,7 +94,7 @@
   - validation and detecting corrupted files (head, tail, md5, wc)
   - maintenance and capture using a cron scheduler (cron, curl, wget)
   - cleanup and backup (cp, rm)
-* Mastering the shell is essential if you want to engage in a Big Data Devops / Dataops career! Most tools installation and maintenance will require understanding of these concepts.
+* Mastering the shell is essential if you want to engage in a Big Data Devops / Dataops career! Most tools installation, maintenance and troubleshooting will require understanding of these concepts.
 
 ### Additional Exercises Material
 * [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Shell
