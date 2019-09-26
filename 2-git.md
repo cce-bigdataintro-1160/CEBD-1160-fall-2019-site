@@ -7,7 +7,7 @@
 * Collaborate using git
 * Understand what licensing is
 
-### What is a versioning system and why git
+### What is a versioning system
 * Version control systems are a category of software tools that help a software team manage changes to code over time
 * A few famous examples are: git, subversion, mercurial, CVS, Perforce and Clear Case
 * Some of the main features are:
