@@ -9,10 +9,16 @@
 ### Goals
 * Understand the course format, objectives and grading
 * Align our expectations regarding course outline, technologies and scope 
+  * Homework
+  * Project
+  * Journaling
+  * Calendar
+  * Communication
+  * Calendar
 * Understand what is Big Data:
   * the ecosystem
   * the main characteristics: Volume, Variety, Velocity, Veracity, Value
-* Be able to recognize a dataset and formulate a question for it  
+* Be able to recognize a dataset and its characteristics and formulate a question for it  
 * Be able to differentiate a regression and classification problem
 
 ### Recommended References
