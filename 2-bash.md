@@ -98,7 +98,6 @@
 * [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Shell
 
 ### Recommended References
-* [Shell Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf): All shell commands in a single cheatsheet
 * [Shell Interactive Manual](https://explainshell.com/): A web version of the man and the help of all shell commands
 * [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/): A full lesson teaching how to use the shell from A to Z. We'll be doing this as part of the homework for this week.
 
