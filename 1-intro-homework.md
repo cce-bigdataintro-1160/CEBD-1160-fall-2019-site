@@ -21,7 +21,7 @@
    * Download the image Ubuntu.ova from this link https://drive.google.com/open?id=1Z-DHx9OHS3F_1pKRaABXhFu_9fJ_3bFs
    * Import the OVA image using the following steps: https://www.maketecheasier.com/import-export-ova-files-in-virtualbox/
    * Launch your virtual environment double clicking on the Ubuntu machine!
-
+   * your user is called `user` and your password is `pwd`
 * For the installations, just a message confirming you succeeded the installations is enough```
 ```### Optional homework(no grading)
 * Research what is an operating system shell/terminal. What's its purpose?

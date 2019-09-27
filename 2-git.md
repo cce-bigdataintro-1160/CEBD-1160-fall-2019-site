@@ -40,7 +40,7 @@
 * Do the following exercise in pairs:
 1. Create a directory called `my-first-repo`. 
 2. Navigate to it and initialize a git repository with `git init`. Check it with `git status` 
-3. Create the files `cleaner.py`, `processor.py`, `submit.py`, `data.csv`, write a few lines in each. Check the `git status` 
+3. Create the files `cleaner.py`, `processor.py`, `data.csv`, write a few lines in each. Check the `git status` 
 4. Add one of those files to your staging area using `git add <filename>`. Check the `git status` 
 5. Commit that file to git using `git commit -m "My commit message"`. Check the `git status`
 6. Add a second of those files to your staging area. Commit that file to git with a different message. Check the `git status` 
@@ -60,11 +60,11 @@
 * Do the following exercise in pairs: 
 1. Create a repository `class2-notebook` in GitHub
 2. Use the `git clone <repository url>` command to clone it locally.
-3. In the cloned repository you must create, add and commit a file called `README.MD`.
-4. Push your changes to GitHub in order to ensure the changes are stored in your `remote`
-5. Use GitHub UI in your browser to modify the file and commit it.
-6. Pull all the changes that happened remotely to your local git repository.
-7. Add your class notes to this notebook, commit and push it again.
+3. In the cloned repository you must create, add and commit a file called `README.MD` following the steps from previous exercise!.
+4. Push your changes to GitHub using the command `git push` after you commit.
+5. Use GitHub UI in your browser to visualize the file
+6. Use the GitHub UI to modify the file and commit it.
+6. Use the command `git pull` to fetch the latest changes to your local machine
 
 ### Understand what licensing is
 * [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository): A GitHub guide on how to license a repository
