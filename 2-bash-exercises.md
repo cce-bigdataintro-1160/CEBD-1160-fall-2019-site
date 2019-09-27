@@ -1,3 +1,7 @@
+### Use External Tools and Gnu Core Tools to enhance your shell skills
+1. Print only the lines 3 to 5 of the file?
+2. Split the train.csv file in multiple files with 20 lines each.
+
 ##### Finding files and contents in files
 
 1. Find the person called `Torborg` in the titanic file `train.csv`
@@ -25,3 +29,4 @@
      touch $dir-files/$dir
    done
    ```
+

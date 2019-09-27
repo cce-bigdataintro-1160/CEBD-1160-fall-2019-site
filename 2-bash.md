@@ -77,12 +77,9 @@
 1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
 2. Provide the shape/dimensions of the file `train.csv`?
 3. List the first 5 rows of the file. Now list the last 5.
-4. Print this file in your screen using `cat` now use the `less` command.
-5. Print this file last 5 lines save the output to train_tail.csv
-6. Print only the lines 3 to 5 of the file?
-7. Fetch the file `remorquages.csv` from the API as indicated [in this link](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
-8. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
-9. Split the train.csv file in multiple files with 20 lines each.
+4. Print this file last 5 lines save the output to train_tail.csv
+5. Fetch the file `remorquages.csv` from the API as indicated [in this link](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
+6. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
 
 ### Final notes on Linux and Shell
 * Let's review what we've learned today
