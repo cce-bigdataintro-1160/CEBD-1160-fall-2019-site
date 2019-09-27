@@ -38,8 +38,8 @@
 
 * Do the following exercise in pairs:
 1. Find out what's your username. Find your home directory and list its contents.
-2. Navigate to `/` and list the contents of this directory. Why is this a special directory?
-3. Navigate to `/var/log` and list its files. What do we have here?
+2. Change directory to `/` and list the contents of this directory. Why is this a special directory?
+3. Change directory to `/var/log` and list its files. What do we have here?
 4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, why is the new current directory special?
 5. Test the following commands: `cd .`, `cd ..`, `cd /` and  `cd ~`. Can you explain what each of those symbols mean?
 6. From your home directory test both commands and explain the difference: `cd Desktop` and `cd /Desktop`
