@@ -1,4 +1,4 @@
-# Intro 2 Linux & Version Control
+# Version Control
 
 ### Objectives
 * Learn what is a versioning system

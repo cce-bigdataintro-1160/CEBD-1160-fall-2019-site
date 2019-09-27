@@ -1,4 +1,4 @@
-# Intro 2 Linux & Version Control
+# Intro 2 Linux
 
 ### Objectives
 * A brief introduction to OS and Linux
