@@ -73,7 +73,7 @@
 * Do the following exercise in pairs:
 1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
 
-### Final notes on Linux and Shell
+### Final notes on Version Control with Git
 * Let's review what we've learned today
 * GitHus hosts a majority of the Big Data projects as we can see in [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata). On the long run you might need to use the documentation or issue trackers in these repositories, or even collaborate with one!
 * GitHub will be the central piece of our homework collaboration, from this class on, the homework will be delivered through GitHub (and some minor parts through Slack)
