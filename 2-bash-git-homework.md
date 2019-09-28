@@ -2,12 +2,12 @@
 * Don't forget to fill up the Weekly Journal: https://forms.gle/QAe9Dm54xNwUxZqZA
 
 *Basic*
-1 - Install the python Language on your computer:
-    *Instructions for Linux*: If using Linux (Ubuntu), you probably don't need to install it as most distributions have it by default. Here are the instructions if you still need to for some reason: https://realpython.com/installing-python/#linux
+1 - Install the Python 3.7 Language on your computer:
+- *Instructions for Linux*: If using Linux (Ubuntu), you probably don't need to install it as most distributions have it by default. Here are the instructions if you still need to for some reason: https://realpython.com/installing-python/#linux
 
-    *Instructions for Mac*: https://realpython.com/installing-python/#macos-mac-os-x
+- *Instructions for Mac*: https://realpython.com/installing-python/#macos-mac-os-x
 
-    *Instructions for Windows*: I strongly recommend using Anaconda (a Data Science Platform that already has Python installed) from : https://www.anaconda.com/distribution/. If you prefer to do it "from scratch" you can use this guide : https://realpython.com/installing-python/#windows but it requires technical knowledge.
+- *Instructions for Windows*: I strongly recommend using Anaconda (a Data Science Platform that already has Python installed) from : https://www.anaconda.com/distribution/. If you prefer to do it "from scratch" you can use this guide : https://realpython.com/installing-python/#windows but it requires technical knowledge.
 
 2 - Install PyCharm Community Edition on your computer, this will be our main editor to work with Python for now and it's available for all operating systems: https://www.jetbrains.com/pycharm/download/
 Feel free to open the tool and explore it a bit, but next class we'll dedicate some time to get familiar with it.
