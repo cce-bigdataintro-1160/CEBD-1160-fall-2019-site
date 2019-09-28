@@ -1,28 +1,24 @@
-### Homework
-* Don't forget to fill up the Weekly Journal! 
+*Homework*
+* Don't forget to fill up the Weekly Journal: https://forms.gle/QAe9Dm54xNwUxZqZA
 
-##### Basic
-1. Make sure you have your a `shell` (like `bash`) installed
-2. Install `python`, recommended steps can be found here: [Python Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier due to Windows lack of support for the Shell.
-3. Complete the [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/) lesson. Send me a message stating where you stopped.
-4. Send me what these command do: 
-   `wc -l * | head -n 3 | sort -n`
-   
-##### Advanced
-1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/). Send me a message stating where you stopped.
-  
-##### Reach
-1. Be a `git` master! That is, do the following *from scratch*:
-  * create a new repository on Github, with a license and a readme
-  * clone it locally
-  * create a new text file that contains at least 1 line of text
-  * add your file to the repository
-  * commit your changes
-  * edit the README file that came in the repo in some way
-  * commit your changes
-  * push your changes to Github
-  * send me the url for your Github repository
-  
-### Optional homework(no need to submit)
-* What shell commands we learned are useful for data exploration and why?
-* Do a quick research explaining what are the main pros and cons of the Python language.
+*Basic*
+1 - Install the python Language on your computer:
+    *Instructions for Linux*: If using Linux (Ubuntu), you probably don't need to install it as most distributions have it by default. Here are the instructions if you still need to for some reason: https://realpython.com/installing-python/#linux
+
+    *Instructions for Mac*: https://realpython.com/installing-python/#macos-mac-os-x
+
+    *Instructions for Windows*: I strongly recommend using Anaconda (a Data Science Platform that already has Python installed) from : https://www.anaconda.com/distribution/. If you prefer to do it "from scratch" you can use this guide : https://realpython.com/installing-python/#windows but it requires technical knowledge.
+
+2 - Install PyCharm Community Edition on your computer, this will be our main editor to work with Python for now and it's available for all operating systems: https://www.jetbrains.com/pycharm/download/
+Feel free to open the tool and explore it a bit, but next class we'll dedicate some time to get familiar with it.
+Send me a message confirming the installations through slack
+
+
+*Advanced*
+1 - Complete the Software Carpentry Linux/Bash lessons 1 to 4. This will review what we learned today and adds a few commands to it. Link : https://swcarpentry.github.io/shell-novice/
+Send me what this command do: `cat <file> | head -n 3 | sort`
+
+
+*Reach*
+1 - Complete the Software Carpentry Git Novice lessons 1 to 7. Link : https://swcarpentry.github.io/git-novice/
+Send me a message confirming your progress on it.

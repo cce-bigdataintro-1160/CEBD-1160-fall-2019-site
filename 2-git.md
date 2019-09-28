@@ -22,9 +22,6 @@
 * How do you currently collaborate in your work? What's the versioning system used there? Some friendlier version include Google Docs and Sharepoint
 
 ### Why git
-* [Git Reference](https://git-scm.com/docs): A reference to all git commands
-* [Basic "Git Everyday" Walkthrough](https://git-scm.com/docs/giteveryday): A reference to basic git commands used on everyday coding
-
 * Git is a *distributed* versioning system created by Linus Torvalds, the creator of Linux
 * Small and lightweight
 * Free and open source
@@ -87,6 +84,8 @@
 * [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) All git commands in a single cheatsheet
 * [Git UI Tools](https://git-scm.com/downloads/guis/): A list of UI tools for git
 * [Git Documentation](https://git-scm.com/doc): The Official documentation for using git
+* [Git Reference](https://git-scm.com/docs): A reference to all git commands
+* [Basic "Git Everyday" Walkthrough](https://git-scm.com/docs/giteveryday): A reference to basic git commands used on everyday coding
 
 ### Advanced exercises material
 * [Git Branching](https://learngitbranching.js.org/): Learn what git does in a visual way with this website
