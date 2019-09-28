@@ -1,6 +1,18 @@
 ### Use External Tools and Gnu Core Tools to enhance your shell skills
+* A quick view on other tools available to explore files
+* [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
+* [Finding file and text](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/5-finding_things_shell_commands.sh)
+* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
+
+* Do the following exercise in pairs:
 1. Print only the lines 3 to 5 of the file?
-2. Split the train.csv file in multiple files with 20 lines each.
+2. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
+3. Provide the shape/dimensions of the file `train.csv`?
+4. List the first 5 rows of the file. Now list the last 5.
+5. Print this file last 5 lines save the output to train_tail.csv
+6. Fetch the file `remorquages.csv` from the API as indicated [in this link](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
+7. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
+8. Split the train.csv file in multiple files with 20 lines each.
 
 ##### Finding files and contents in files
 

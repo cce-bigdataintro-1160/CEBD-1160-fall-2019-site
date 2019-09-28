@@ -67,20 +67,6 @@
 14. Check all of your changes using the UI
 15. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 
-### Use External Tools and Gnu Core Tools to enhance your shell skills
-* A quick view on other tools available to explore files
-* [A few Gnu Core Tools](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
-* [Finding file and text](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/5-finding_things_shell_commands.sh)
-* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
-
-* Do the following exercise in pairs:
-1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
-2. Provide the shape/dimensions of the file `train.csv`?
-3. List the first 5 rows of the file. Now list the last 5.
-4. Print this file last 5 lines save the output to train_tail.csv
-5. Fetch the file `remorquages.csv` from the API as indicated [in this link](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
-6. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
-
 ### Final notes on Linux and Shell
 * Let's review what we've learned today
 * The concepts we learned today apply for pretty much any filesystem, including the ones used for Big Data like HDFS, S3, GCS and AS
