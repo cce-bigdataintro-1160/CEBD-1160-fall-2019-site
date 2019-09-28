@@ -1,3 +1,10 @@
+### Understand what licensing is
+* [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository): A GitHub guide on how to license a repository
+* [Choose a license](https://choosealicense.com/): A GitHub Page to help you decide which is the right license for your project
+
+* Do the following exercise in pairs:
+1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
+
 ##### Undoing things
 1. Undo a non-staged change in one of the files
 2. Undo a staged change in one of the files

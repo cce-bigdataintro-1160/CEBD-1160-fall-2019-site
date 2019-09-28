@@ -5,7 +5,6 @@
 * Why use git
 * Create a repository and do your first commit
 * Collaborate using git
-* Understand what licensing is
 
 ### What is a versioning system
 * Version control systems are a category of software tools that help a software team manage changes to code over time
@@ -63,13 +62,6 @@
 6. Use the GitHub UI to modify the file and commit it.
 6. Use the command `git pull` to fetch the latest changes to your local machine
 
-### Understand what licensing is
-* [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository): A GitHub guide on how to license a repository
-* [Choose a license](https://choosealicense.com/): A GitHub Page to help you decide which is the right license for your project
-
-* Do the following exercise in pairs:
-1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
-
 ### Final notes on Version Control with Git
 * Let's review what we've learned today
 * GitHub hosts a majority of the Big Data projects as we can see in [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata). On the long run you might need to use the documentation or issue trackers in these repositories, or even collaborate with one!
@@ -85,7 +77,6 @@
 * [Git UI Tools](https://git-scm.com/downloads/guis/): A list of UI tools for git
 * [Git Documentation](https://git-scm.com/doc): The Official documentation for using git
 * [Git Reference](https://git-scm.com/docs): A reference to all git commands
-* [Basic "Git Everyday" Walkthrough](https://git-scm.com/docs/giteveryday): A reference to basic git commands used on everyday coding
 
 ### Advanced exercises material
 * [Git Branching](https://learngitbranching.js.org/): Learn what git does in a visual way with this website
