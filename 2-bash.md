@@ -5,7 +5,6 @@
 * Learn what's the shell
 * Be able to Navigate through the file system
 * Work with Files and Directories
-* Use External Tools and Gnu Core Tools to enhance your shell skills
 
 ### A brief introduction to OS and Linux
 * [Operating Systems](https://en.wikipedia.org/wiki/Operating_system): An operating system provides facilities to interface between applications and hardware using low level libraries and drivers.
