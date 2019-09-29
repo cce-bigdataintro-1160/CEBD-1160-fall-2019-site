@@ -105,3 +105,5 @@ Understand some extra concepts of the Python language and start to manipulate da
 * [Loading excel files in pandas](https://datatofish.com/read_excel/): Tutorial explaining how to load excel files in pandas DataFrames
 * [Loading sql tables in pandas](https://stackoverflow.com/questions/10065051/python-pandas-and-databases-like-mysql): page explaining how to load sql tables in pandas DataFrames
 * [Loading html tables in pandas](https://beenje.github.io/blog/posts/parsing-html-tables-in-python-with-pandas/): page explaining how to load html tables in pandas DataFrames
+
+[Back To Main Page](./index.md)

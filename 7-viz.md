@@ -109,3 +109,5 @@ By the end of this class you'll be able to:
 * [Plotly](https://plot.ly/python/): Plotly's Python graphing library makes interactive, publication-quality graphs online. 
 * [Plotly Express](https://www.plotly.express/): A gallery displaying the simplified version of the plotly python library, meant to accelerate the usage of the library. 
 * [ggplot](http://ggplot.yhathq.com/): ggplot is a plotting system for Python based on R's ggplot2
+
+[Back To Main Page](./index.md)

@@ -1,17 +1,13 @@
 # Python Data Structures and Conditionals
 
 ### Agenda
-* Bash and Git Homework Check
 * Intro 2 Python
 * The Python Shell
 * Writing a Python script
 * Reading datasets with Python
-* Homework
 
 ### Intro to Python
-
-##### Goals
-Get acquainted with the Python language, that we'll use for data exploration and manipulation. By the end of this class you will be able to:
+* Python is a programming language 
 * Understand python types and basic paradigm
 * Use the python shell to write simple expressions and small processes
 * Write scripts with input arguments, loops and flow control
@@ -22,7 +18,7 @@ Get acquainted with the Python language, that we'll use for data exploration and
 * [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation (Modules )
 * [Python Basics Reference](https://pythonbasics.org/): Python basics simplified syntax for using Python basics
 
-##### The Python Shell
+### The Python Shell
 1. Check what's the type of the following values in the python shell:
    * `1`
    * `3.14`
@@ -35,7 +31,7 @@ Get acquainted with the Python language, that we'll use for data exploration and
 5. Return all elements between(non-inclusive) 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
 6. Can you replace `big data` with `BIG DATA` in the list `['a',2,['b',4,5,'big data']]`
 
-##### Writing a Python script
+### Writing a Python script
 1. Write a script called `testing_scripts.py` with the following content below, run it using `python3 testing_scripts.py`:
 
 ```
@@ -60,7 +56,7 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 3. Write another script called `hello_script.py`. It should take one number as input. If the number is equal to 42 print `Right answer to everything`. If the number is not 42 print `wrong answer`. If the input is not a number print `Sorry, invalid input, expecting number`.
 4. Add, commit and push these three scripts to the `class3-notebook` repository in GitHub!
 
-##### Reading datasets with Python
+### Reading datasets with Python
 1. Create a script called `my_csv_reader.py` that's able to read a file(you can use any file here) and that checks if it's a valid file. If it is print `I have a file to process`, otherwise print `Boo, no file for me.`
 2. Expand this script to read a csv dataset and print it to the screen line by line. Replace the previous file with any of the toys datasets for this!
 3. Expand this script by printing each line as a list of values. Example:
@@ -73,6 +69,10 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
    ['abc','cde','efg','1','2','3']
    ```
 4. Add, commit and push this script to the `class3-notebook` repository in GitHub!
+
+### Final notes on Learning Python
+* Let's review what we've learned today
+* 
 
 ### Additional Exercises Material
 * [Extra exercises](./3-python-exercises.md): Additional exercises to practice each Python topic
@@ -88,3 +88,5 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 * [Python3 for beginners tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): Several Python references for studying, all recommended for beginners
 * [Python Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/): Coding style guidelines for Python if you want to make your code look good
 * [Python Docstring Conventions](https://www.python.org/dev/peps/pep-0257/): Rules for properly documenting your functions
+
+[Back To Main Page](./index.md)
