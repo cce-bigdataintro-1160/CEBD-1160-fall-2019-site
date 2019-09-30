@@ -4,15 +4,15 @@
 * Intro 2 Python
 * The Python Shell
 * Writing a Python script
-* Reading datasets with Python
+* Reading files with Python
 
 ### Intro to Python
 * Python is a programming language created in 1991 with a design Philosophy emphasizing Code Readability
 * Due to its simplicity, it's always been largely used for academic purposes, but it really took off around 2011 due to its compatibility with several popular platforms like PySpark and AWS Lambda. 
 * A few characteristics from the Python language are:
   * Free and OpenSource: No vendor lock-in and no hidden service fees, making it safe for small and large companies adoption
-  * Portable : Code written on Python can be executed without modification on Windows/Linux and MacOS systems (as long no native calls are made in the code)
-  * Large ecosystem and community: Python has one of the oldest libraries ecosystems in the IT industry, rivaled only by other major languages. These extensions simplify a lot of daily work as most things can be just re-used.
+  * Portable : Code written on Python can be executed without modification on Windows/Linux and MacOS systems
+  * Ecosystem and community: Python has one of the largest libraries ecosystems in the IT industry
   * Interpreted: Python doesn't require slow/complex code compilation, making its deployment easy and simple
   * Tools: There are several quality tools developed to assist Python development, like PyCharm and Jupyter
 
@@ -29,8 +29,8 @@
 ### The Python Shell
 * Let's start the python shell in our terminals by typing `python3`
 
-* Using the Python Shell, do the following exercise in pairs:
-1. Check what's the type of the following values:
+1 Using the Python Shell, do the following exercise in pairs:
+2. Check what's the type of the following values:
 ```
    `type(1)`
    `type(3.14)`
@@ -38,12 +38,12 @@
    `type(True)` and `type(False)`
    `type([1,2,"intruder",3])`
 ```
-2. Use the command `help('Big Data!')`. What does the built-in help() method does?
-3. Use the command `dir('Big Data!')`. What does the built-in dir() method does?
-4. Write an equation that uses multiplication, subtraction and an addition that is equal to 42.5. 
-5. Assign the result to the variable `result`. Ex: `result = <my equation formula>` 
-6. Print your variable using `print(result)`
-7. Given the string `'big data'` use slicing to produce the string `'g da'`
+3. Use the command `help('Big Data!')`. What does the built-in help() method does?
+4. Use the command `dir('Big Data!')`. What does the built-in dir() method does?
+5. Write an equation that uses multiplication, subtraction and an addition that is equal to 42.5. 
+6. Assign the result to the variable `result`. Ex: `result = <my equation formula>` 
+7. Print your variable using `print(result)`
+8. Given the string `'big data'` use slicing to produce the string `'g da'`
 
 
 ### Writing a Python script
@@ -56,11 +56,12 @@
   * Create your first script that should produce the classic output: `Hello World!`
   * There are two ways to run your scripts: type `python3 <myscript>.py` from the Terminal Panel or right click on the script and click `Run`
   
-* On a separate directory (outside `class3-mynotebook` please clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
-* Open this project in PyCharm in a separate window and let's see a few script examples together
+* On a separate directory (outside `class3-mynotebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
+* Open this project in PyCharm in a separate window and let's see a few script examples
 
-* Go back to your previous `class3-mynotebook` project and do the following exercise in pairs:
-1. Write a script called `testing_scripts.py` with the following content below, run it using `python3 testing_scripts.py`:
+1. Go back to your previous `class3-mynotebook` project and do the following exercise in pairs:
+2. Write a script that prints all elements between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
+3. Write a script called `testing_scripts.py` with the following content below, run it using `python3 testing_scripts.py`:
 
 ```
 
@@ -79,23 +80,20 @@ print(mylist)
 print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, {type(mylist)}')
 ```
 
-2. A script called `FizzBuzz.py` that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
-3. Write another script called `hello_script.py`. It should take one number as input. If the number is equal to 42 print `Right answer to everything`. If the number is not 42 print `wrong answer`. If the input is not a number print `Sorry, invalid input, expecting number`.
-4. Add, commit and push these three scripts to the `class3-notebook` repository in GitHub!
-
-7. Return all elements between(non-inclusive) 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
-8. Can you replace `big data` with `BIG DATA` in the list `['a',2,['b',4,5,'big data']]`
+4. A script called `FizzBuzz.py` that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
+5. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
 
 
-* Use the python shell to write simple expressions and small processes
-* Write scripts with input arguments, loops and flow control
-* Provide file inputs to your scripts for data exploration
+### Reading files with Python
+* Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
 
-
-### Reading datasets with Python
-1. Create a script called `my_csv_reader.py` that's able to read a file(you can use any file here) and that checks if it's a valid file. If it is print `I have a file to process`, otherwise print `Boo, no file for me.`
-2. Expand this script to read a csv dataset and print it to the screen line by line. Replace the previous file with any of the toys datasets for this!
-3. Expand this script by printing each line as a list of values. Example:
+1. Go back to your previous `class3-mynotebook` project and do the following exercise in pairs:
+2. Copy the boston housing dataset file in your project
+3. Create a script called `my_csv_reader.py`
+4. Check if the boston housing dataset file path is really a file. If it is print `I have a file to process`, otherwise print `Boo, no file for me.`
+5. Read the boston housing dataset file 
+6. Print the dataset line by line
+5. Expand this script by printing each line as a list of values. Example:
    The line:
    ```
    abc,cde,efg,1,2,3
@@ -114,17 +112,14 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 * [Extra exercises](./3-python-exercises.md): Additional exercises to practice each Python topic
 
 ### Optional homework(no need to submit, preparation for next class)
-* Read the `Part 1: Orientation` and `Part 2: Containers` from [Docker Getting Started](https://docs.docker.com/get-started/)
 * Research what is a Python external `library` and what can you do with it.
 * Research what are the `numpy` and `argparse` python libraries and what are they used for.
 
 ### Recommended Readings
+* [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation (Modules)
 * [Python Basics Reference](https://pythonbasics.org/): Python basics simplified syntax for using Python basics
-* [Official Python3 Documentation](https://docs.python.org/3/): Python3 documentation page
 * [Python3 Reference](https://docs.python.org/3/library/index.html):  Python3 reference pages containing all base types
 * [Python3 for beginners tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): Several Python references for studying, all recommended for beginners
 * [Python Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/): Coding style guidelines for Python if you want to make your code look good
-* [Python Docstring Conventions](https://www.python.org/dev/peps/pep-0257/): Rules for properly documenting your functions
-* [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation (Modules )
 
 [Back To Main Page](./index.md)
