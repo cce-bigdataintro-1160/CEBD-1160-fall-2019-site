@@ -31,11 +31,13 @@
 
 * Using the Python Shell, do the following exercise in pairs:
 1. Check what's the type of the following values:
-   * `type(1)`
-   * `type(3.14)`
-   * `type("Big Data!")` and `type('Big Data!')`
-   * `type(True)` and `type(False)`
-   * `type([1,2,"intruder",3])`
+```
+   `type(1)`
+   `type(3.14)`
+   `type("Big Data!")` and `type('Big Data!')`
+   `type(True)` and `type(False)`
+   `type([1,2,"intruder",3])`
+```
 2. Use the command `help('Big Data!')`. What does the built-in help() method does?
 3. Use the command `dir('Big Data!')`. What does the built-in dir() method does?
 4. Write an equation that uses multiplication, subtraction and an addition that is equal to 42.5. 
