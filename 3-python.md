@@ -10,16 +10,15 @@
 * Python is a programming language created in 1991 with a design Philosophy emphasizing Code Readability
 * Due to its simplicity, it's always been largely used for academic purposes, but it really took off around 2011 due to its compatibility with several popular platforms like PySpark and AWS Lambda. 
 * A few characteristics from the Python language are:
-  * Easy to use and expressive: few lines of code can represent complex operations, as in opposed to languages like C
   * Free and OpenSource: No vendor lock-in and no hidden service fees, making it safe for small and large companies adoption
   * Portable : Code written on Python can be executed without modification on Windows/Linux and MacOS systems (as long no native calls are made in the code)
-  * Object Oriented: Python is enabled for all characteristics of Object Oriented languages
-  * Large ecosystem: Python has one of the oldest libraries ecosystems in the IT industry, rivaled only by other major languages. These extensions simplify a lot of daily work as most things can be just re-used.
+  * Large ecosystem and community: Python has one of the oldest libraries ecosystems in the IT industry, rivaled only by other major languages. These extensions simplify a lot of daily work as most things can be just re-used.
   * Interpreted: Python doesn't require slow/complex code compilation, making its deployment easy and simple
   * Tools: There are several quality tools developed to assist Python development, like PyCharm and Jupyter
-  * Community: The Python Community is huge and there are tons of documentation and tutorials available on the web
+
+![infographic](./python-files/infochart2.jpg)   
    
-* Here's an [infographic](./python-files/infochart2.jpg) on Python usage and the [Google Trends](https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F02p97,%2Fm%2F07sbkfb,%2Fm%2F05z1_,%2Fm%2F0jgqg,%2Fm%2F0_lcrx4) comparing it to other popular languages
+* [Google Trends](https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F02p97,%2Fm%2F07sbkfb,%2Fm%2F05z1_,%2Fm%2F0jgqg,%2Fm%2F0_lcrx4) comparing it to other popular languages
 
 * Python code is written in files that we'll call scripts and use the `.py` extension
 * Python scripts can be executed with a Python Interpreter, which is already installed in this classroom
