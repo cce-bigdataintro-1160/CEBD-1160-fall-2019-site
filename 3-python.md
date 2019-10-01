@@ -79,21 +79,21 @@ print(mylist)
 
 print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, {type(mylist)}')
 ```
-
-4. A script called `FizzBuzz.py` that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
+4. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
 5. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
 
 
 ### Reading files with Python
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
+* Let's see a few script examples together
 
-1. Go back to your previous `class3-mynotebook` project and do the following exercise in pairs:
+1. In `class3-mynotebook` project and do the following exercise in pairs:
 2. Copy the boston housing dataset file in your project
 3. Create a script called `my_csv_reader.py`
 4. Check if the boston housing dataset file path is really a file. If it is print `I have a file to process`, otherwise print `Boo, no file for me.`
 5. Read the boston housing dataset file 
 6. Print the dataset line by line
-5. Expand this script by printing each line as a list of values. Example:
+5. Modify this script by printing each line as a list of values. Example:
    The line:
    ```
    abc,cde,efg,1,2,3
@@ -107,13 +107,16 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 ### Final notes on Learning Python
 * Let's review what we've learned today
 * Today we learned two ways to execute Python code: the Python Shell and running scripts with the Python interpreter. In the future classes we'll also learn how to use two other tools: PyCharm and Jupyter, that are widely used in the industry.
+* We've learned Python's basic types and the operations we can use on them
+* We looked and loops and conditionals, two very important constructs to control execution flow in a script
+* We've learned how to manipulate and read files using Python
 
 ### Additional Exercises Material
 * [Extra exercises](./3-python-exercises.md): Additional exercises to practice each Python topic
 
 ### Optional homework(no need to submit, preparation for next class)
 * Research what is a Python external `library` and what can you do with it.
-* Research what are the `numpy` and `argparse` python libraries and what are they used for.
+* Research what are the `numpy` and `pandas` python libraries and what are they used for.
 
 ### Recommended Readings
 * [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation (Modules)
