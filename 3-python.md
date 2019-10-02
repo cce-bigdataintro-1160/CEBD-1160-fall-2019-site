@@ -29,7 +29,7 @@
 ### The Python Shell
 * Let's start the python shell in our terminals by typing `python3`
 
-1 Using the Python Shell, do the following exercise in pairs:
+1. Using the Python Shell, do the following exercise in pairs:
 2. Check what's the type of the following values:
 ```
    `type(1)`
@@ -59,9 +59,6 @@
 * On a separate directory (outside `class3-mynotebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
 * Open this project in PyCharm in a separate window and let's see a few script examples
 
-<details><summary>Exercises</summary>
-<p>
-
 1. Go back to your previous `class3-mynotebook` project and do the following exercise in pairs:
 2. Write a script that prints all elements between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
 3. Write a script called `testing_scripts.py` with the following content below, run it using `python3 testing_scripts.py`:
@@ -84,8 +81,6 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 ```
 4. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
 5. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
-</p>
-</details>
 
 ### Reading files with Python
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
