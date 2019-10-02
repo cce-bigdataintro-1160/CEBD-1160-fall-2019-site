@@ -60,14 +60,14 @@
 4. Push your changes to GitHub using the command `git push` after you commit.
 5. Use GitHub UI in your browser to visualize the file
 6. Use the GitHub UI to modify the file and commit it.
-6. Use the command `git pull` to fetch the latest changes to your local machine
+7. Use the command `git pull` to fetch the latest changes to your local machine
 
 ### Final notes on Version Control with Git
 * Let's review what we've learned today
 * GitHub hosts a majority of the Big Data projects as we can see in [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata). On the long run you might need to use the documentation or issue trackers in these repositories, or even collaborate with one!
 * GitHub will be the central piece of our homework collaboration, from this class on, the homework will be delivered through GitHub (and some minor parts through Slack)
 * GitHub will also serve as a portfolio for our work and your final project
-* If you feel like you're overwhelmed by git, there are two alternatives, using the GitHub UI or using a graphical tool. 
+* If you feel like you're overwhelmed by git, there are two alternatives, using the GitHub UI or using a graphical tool (PyCharm has an embedded tool for it!). 
 
 ### Additional Exercises Material
 * [Extra exercises](./2-git-exercises.md): Additional exercises to practice Git
