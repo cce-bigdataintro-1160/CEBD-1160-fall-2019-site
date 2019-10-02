@@ -16,7 +16,7 @@
   * Interpreted: Python doesn't require slow/complex code compilation, making its deployment easy and simple
   * Tools: There are several quality tools developed to assist Python development, like PyCharm and Jupyter
 
-![infographic](./python-files/infochart2.jpg)   
+      ![infographic](./python-files/infochart2.jpg)   
    
 * [Google Trends](https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F02p97,%2Fm%2F07sbkfb,%2Fm%2F05z1_,%2Fm%2F0jgqg,%2Fm%2F0_lcrx4) comparing it to other popular languages
 
