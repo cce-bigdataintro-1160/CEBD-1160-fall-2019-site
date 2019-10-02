@@ -11,9 +11,9 @@
 * Due to its simplicity, it's always been largely used for academic purposes, but it really took off around 2011 due to its compatibility with several popular platforms like PySpark and AWS Lambda. 
 * A few characteristics from the Python language are:
   * Free and OpenSource: No vendor lock-in and no hidden service fees, making it safe for small and large companies adoption
-  * Portable : Code written on Python can be executed without modification on Windows/Linux and MacOS systems
+  * Portable : can be executed without modification on Windows/Linux and MacOS systems
   * Ecosystem and community: Python has one of the largest libraries ecosystems in the IT industry
-  * Interpreted: Python doesn't require slow/complex code compilation, making its deployment easy and simple
+  * Interpreted: Python doesn't require slow/complex code compilation, facilitating deployment
   * Tools: There are several quality tools developed to assist Python development, like PyCharm and Jupyter
 
       ![infographic](./python-files/infochart2.jpg)   
@@ -23,8 +23,8 @@
 * Python code is written in files that we'll call scripts and use the `.py` extension
 * Python scripts can be executed with a Python Interpreter, which is already installed in this classroom
 * The Python Interpreter can be invoked in two ways:
-  * We can use a tool called Python Shell by typing `python3` on the terminal. This will provide us with a special shell capable of running any python commands. No script is required for this mode, and it's an excellent tool for quick exercises and evaluations.
-  * The other option is to invoke the command `python3 <my_script>.py`. Please notice that this invocation will require a script to have been created beforehand with the code you want to run. 
+  * We can invoke the command `python3 <my_script>.py`. Let's run a create a `hello-world.py` example
+  * We can use a tool called Python Shell by typing `python3` on the terminal. This will provide us with a special shell capable of running any python commands
 
 ### The Python Shell
 * Let's start the python shell in our terminals by typing `python3`
@@ -45,7 +45,6 @@
 7. Print your variable using `print(result)`
 8. Given the string `'big data'` use slicing to produce the string `'g da'`
 
-
 ### Writing a Python script
 * Let's now look how to write scripts and execute them
 * A Python script can be written with any text editor, but we'll be using PyCharm, a powerful IDE to assist us
@@ -53,7 +52,7 @@
 * Let's open PyCharm and familiarize ourselves with the tool:
   * Create a new empty project pointing to the directory you just cloned from GitHub, this will make sure you'll be able to push your changes to GitHub later
   * Check the left side menu, top menu, terminal panel and version control panel
-  * Create your first script that should produce the classic output: `Hello World!`
+  * Create a that should produce the classic output: `Hello World!`
   * There are two ways to run your scripts: type `python3 <myscript>.py` from the Terminal Panel or right click on the script and click `Run`
   
 * On a separate directory (outside `class3-mynotebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
@@ -79,8 +78,8 @@ print(mylist)
 
 print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, {type(mylist)}')
 ```
-4. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
-5. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
+5. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
+6. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
 
 ### Reading files with Python
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
@@ -105,7 +104,7 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 
 ### Final notes on Learning Python
 * Let's review what we've learned today
-* Today we learned two ways to execute Python code: the Python Shell and running scripts with the Python interpreter. In the future classes we'll also learn how to use two other tools: PyCharm and Jupyter, that are widely used in the industry.
+* Today we learned three ways to execute Python code: the Python Shell, running scripts with the Python interpreter and running in PyCharm. In the future classes we'll also learn how to use Jupyter notebooks a powerful prototyping tool frequently used for Data Science 
 * We've learned Python's basic types and the operations we can use on them
 * We looked and loops and conditionals, two very important constructs to control execution flow in a script
 * We've learned how to manipulate and read files using Python
