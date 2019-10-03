@@ -31,15 +31,17 @@
 
 1. Using the Python Shell, do the following exercise in pairs:
 2. Check what's the type of the following values:
+
 ```
-   `type(1)`
-   `type(3.14)`
-   `type("Big Data!")` and `type('Big Data!')`
-   `type(True)` and `type(False)`
-   `type([1,2,"intruder",3])`
+   type(1)
+   type(3.14)
+   type("Big Data!")` and `type('Big Data!')
+   type(True) and type(False)
+   type([1,2,"intruder",3])
 ```
-3. Use the command `help('Big Data!')`. What does the built-in help() method does?
-4. Use the command `dir('Big Data!')`. What does the built-in dir() method does?
+
+3. Use the command `help(str)`. What does the built-in help() method does?
+4. Use the command `dir(str)`. What does the built-in dir() method does?
 5. Write an equation that uses multiplication, subtraction and an addition that is equal to 42.5. 
 6. Assign the result to the variable `result`. Ex: `result = <my equation formula>` 
 7. Print your variable using `print(result)`
@@ -52,15 +54,14 @@
 * Let's open PyCharm and familiarize ourselves with the tool:
   * Create a new empty project pointing to the directory you just cloned from GitHub, this will make sure you'll be able to push your changes to GitHub later
   * Check the left side menu, top menu, terminal panel and version control panel
-  * Create a that should produce the classic output: `Hello World!`
+  * Create a script that should print any output.
   * There are two ways to run your scripts: type `python3 <myscript>.py` from the Terminal Panel or right click on the script and click `Run`
   
 * On a separate directory (outside `class3-mynotebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
 * Open this project in PyCharm in a separate window and let's see a few script examples
 
 1. Go back to your previous `class3-mynotebook` project and do the following exercise in pairs:
-2. Write a script that prints all elements between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
-3. Write a script called `testing_scripts.py` with the following content below, run it using `python3 testing_scripts.py`:
+2. Copy the script below and run it using `python3 testing_scripts.py`:
 
 ```
 
@@ -78,8 +79,10 @@ print(mylist)
 
 print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, {type(mylist)}')
 ```
-5. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
-6. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
+
+3. Write a script that prints all elements between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
+4. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
+5. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
 
 ### Reading files with Python
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
