@@ -1,4 +1,4 @@
-### Understand what licensing is
+##### Understand what licensing is
 * [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository): A GitHub guide on how to license a repository
 * [Choose a license](https://choosealicense.com/): A GitHub Page to help you decide which is the right license for your project
 
