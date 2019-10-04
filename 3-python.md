@@ -52,17 +52,17 @@
 ### Writing a Python script
 * Let's now look how to write scripts and execute them
 * A Python script can be written with any text editor, but we'll be using PyCharm, a powerful IDE to assist us
-* Let's start by creating a project `class3-mynotebook` in GitHub and cloning it locally using `git clone <my repo url>` in the Terminal
+* Let's start by creating a project `python-notebook` in GitHub and cloning it locally using `git clone <my repo url>` in the Terminal
 * Let's open PyCharm and familiarize ourselves with the tool:
   * Create a new empty project pointing to the directory you just cloned from GitHub, this will make sure you'll be able to push your changes to GitHub later
   * Check the left side menu, top menu, terminal panel and version control panel
   * Create a script that should print any output.
   * There are two ways to run your scripts: type `python3 <myscript>.py` from the Terminal Panel or right click on the script and click `Run`
   
-* On a separate directory (outside `class3-mynotebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
+* On a separate directory (outside `python-notebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
 * Open this project in PyCharm in a separate window and let's see a few script examples
 
-1. Go back to your previous `class3-mynotebook` project and do the following exercise in pairs:
+1. Go back to your previous `python-notebook` project and do the following exercise in pairs:
 2. Copy the script below and run it using `python3 testing_scripts.py`:
 
 ```
@@ -84,13 +84,13 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 
 3. Write a script that prints all elements between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
 4. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
-5. Add, commit and push these scripts to the `class3-notebook` repository in GitHub!
+5. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
 
 ### Reading files with Python
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
 * Let's see a few script examples together
 
-1. In `class3-mynotebook` project and do the following exercise in pairs:
+1. In `python-notebook` project and do the following exercise in pairs:
 2. Copy the boston housing dataset file in your project
 3. Create a script called `my_csv_reader.py`
 4. Check if the boston housing dataset file path is really a file. If it is print `I have a file to process`, otherwise print `Boo, no file for me.`
@@ -105,7 +105,7 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
    ```
    ['abc','cde','efg','1','2','3']
    ```
-8. Add, commit and push this script to the `class3-notebook` repository in GitHub!
+8. Add, commit and push this script to the `python-notebook` repository in GitHub!
 
 ### Final notes on Learning Python
 * Let's review what we've learned today
