@@ -29,6 +29,8 @@
 ### The Python Shell
 * Let's start the python shell in our terminals by typing `python3`
 
+      ![infographic](./python-files/pythonshell.png)   
+
 1. Using the Python Shell, do the following exercise in pairs:
 2. Check what's the type of the following values:
 
