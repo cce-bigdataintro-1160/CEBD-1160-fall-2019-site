@@ -77,6 +77,7 @@
 * [Git UI Tools](https://git-scm.com/downloads/guis/): A list of UI tools for git
 * [Git Documentation](https://git-scm.com/doc): The Official documentation for using git
 * [Git Reference](https://git-scm.com/docs): A reference to all git commands
+* [Troubleshooting for Windows users](https://help.github.com/en/articles/configuring-git-to-handle-line-endings) who receive a message about incompatible line endings (CLRF vs LF)
 
 ### Advanced exercises material
 * [Git Branching](https://learngitbranching.js.org/): Learn what git does in a visual way with this website

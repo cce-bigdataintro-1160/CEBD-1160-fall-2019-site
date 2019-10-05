@@ -127,5 +127,6 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 * [Python3 Reference](https://docs.python.org/3/library/index.html):  Python3 reference pages containing all base types
 * [Python3 for beginners tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): Several Python references for studying, all recommended for beginners
 * [Python Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/): Coding style guidelines for Python if you want to make your code look good
+* [Troubleshooting for Windows users](https://datatofish.com/add-python-to-windows-path/) who can't use the Python Shell directly from the Windows command: if you want to be able to run Python from the  Windows command line (don't mistake this with the Linux shell), you'll need to add the Python executable to your "path". 
 
 [Back To Main Page](./index.md)

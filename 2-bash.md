@@ -87,6 +87,7 @@
 * [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/): A full lesson teaching how to use the shell from A to Z. We'll be doing this as part of the homework for this week.
 
 ### Advanced exercises material
+* [crontab tutorial](https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/): a beginners tutorial for using the crontab
 * [cmdchallenge](https://cmdchallenge.com/): Can you complete these challenges from 
 * [Oh My Zsh](https://ohmyz.sh/): Extension to use the shell like a boss
 
