@@ -17,7 +17,7 @@
 2. [Operating the shell](2-bash.md)
 3. [Version Control](2-git.md)
 4. [Python Data Structures and Conditionals](./3-python.md)
-5. [Python Loops and Functions](./5-pythonadv.md)
+5. [Python Libraries for Data Manipulation](./5-pythonadv.md)
 6. [Python Data Visualization](./7-viz.md)
 7. [Python Machine Learning](./8-ml.md)
 8. [Containerization & Shipping Software](./10-docker.md)

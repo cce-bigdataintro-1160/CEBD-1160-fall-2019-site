@@ -1,4 +1,4 @@
-# Python Functions, Libraries & Numerical Analysis
+# Python Libraries for Data Manipulation
 
 ### Agenda
 * Importing and Using Libraries
