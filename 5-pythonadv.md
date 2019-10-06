@@ -6,9 +6,7 @@
 * DataFrames with Pandas
 * Plotting Charts with MatPlotLib
 
-
 ### Importing and Using Libraries
-
 * Libraries are packages of classes and functions previously written to be reused as components 
 * In order to import packages in Python they either have to:
   * be part of the [standard library](https://docs.python.org/3/library/) 
@@ -17,7 +15,7 @@
   * be installed manually using PyCharm
 * After the installation, using libraries is as simple as using `import` statements like `import sys` or `import numpy as np`
 * you can check the available methods in each lib by using the functions `dir` and `help` or using your IDE (PyCharm) help
-* Let's take a look together at the `time`, `random`, `os`, `argparse` and `sys` in the CEBD-1160-code project
+* Let's take a look together at the standard libraries `time`, `random`, `os` and `sys` in the CEBD-1160-code project
 
 1. In `python-notebook` project do the following exercise in pairs:
 2. Write a python script that prints a message every 3 seconds 
@@ -34,8 +32,8 @@
 1. In `python-notebook` project do the following exercise in pairs:
 1. Create your first array with the elements `[1,22.4,5,35,4,6.7,3,8,40]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and  `dtype`.
 2. Create your first matrix with the elements `[['a', 'b'],['c', 'd'],[3, 3]]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and `dtype`
-3. Create numpy 1 dimension array using each of the functions `arange`, `linspace` and `rand`
-4. Create numpy 2 dimensions matrix using each of the functions `zeros`, `ones`, `eye` and `rand`
+3. Create numpy 1 dimension array using each of the functions `arange` and `rand`
+4. Create numpy 2 dimensions matrix using each of the functions `zeros` and `rand`
 5. Create an array containing 20 times the value `7`. Reshape it to a 4 x 5 Matrix
 6. Create a matrix of 6 x 6 containing random values between 0 and 1, then print:
 * only the first element on it
