@@ -7,6 +7,7 @@
 * Plotting Charts with MatPlotLib
 
 ### Importing and Using Libraries
+* In order to facilitate reading and manipulating datasets, we'll need to use a few libraries like numpy, pandas and matplotlib
 * Libraries are packages of classes and functions previously written to be reused as components 
 * In order to import packages in Python they either have to:
   * be part of the [standard library](https://docs.python.org/3/library/) 
@@ -64,10 +65,6 @@
 
 
 ### Plotting Charts with MatPlotLib
-* [matplotLib Docs](https://matplotlib.org/contents.html): Matplotlib Documentation
-* [matplotLib Galleries](https://matplotlib.org/gallery/index.html): matplotlib Gallery with many plots to use for reference
-* [matplotLib Tutorials](https://matplotlib.org/tutorials/index.html): matplotlib Tutorials for Beginners, Itermediate and Advanced users.
-
 * Use the Matplotlib library to generate simple plots from Datasets
 * one of the main libraries for scientifical data exploration, allows for quick prototyping and has all basic functionalities
 * was built with the MATLAB interface as a reference
@@ -104,6 +101,10 @@
 
 * [Pandas Docs](http://pandas.pydata.org/pandas-docs/stable/): main pandas documentation page
 * [pandas Quick Start](http://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html): A few quick recipes to using DataFrames
+
+* [matplotLib Galleries](https://matplotlib.org/gallery/index.html): matplotlib Gallery with many plots to use for reference
+* [matplotLib Docs](https://matplotlib.org/contents.html): Matplotlib Documentation
+* [matplotLib Tutorials](https://matplotlib.org/tutorials/index.html): matplotlib Tutorials for Beginners, Itermediate and Advanced users.
 
 * [Loading csv files in pandas](https://towardsdatascience.com/pandas-dataframe-playing-with-csv-files-944225d19ff): Tutorial explaining how to load CSV files in pandas DataFrames
 * [Loading excel files in pandas](https://datatofish.com/read_excel/): Tutorial explaining how to load excel files in pandas DataFrames
