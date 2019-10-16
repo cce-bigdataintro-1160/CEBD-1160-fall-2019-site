@@ -82,8 +82,8 @@ print(mylist)
 print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, {type(mylist)}')
 ```
 
-3. Write a script that prints all elements between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
-4. Write a Python program that receives an input number as an argument and prints all the numbers from 0 until the provided number except 3 and 6.
+3. Write a script that prints the double of all values between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
+4. Write a Python program that separates all values in the list `[1,2,3,4,5,6,7,8,9]` in two other lists. One resulting list should contain all even numbers and the other should contain all odd numbers.
 5. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
 
 ### Reading files with Python
