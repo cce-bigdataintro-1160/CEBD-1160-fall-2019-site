@@ -36,7 +36,7 @@
 3. Create numpy 1 dimension array using each of the functions `arange` and `rand`
 4. Create numpy 2 dimensions matrix using each of the functions `zeros` and `rand`
 5. Create an array containing 20 times the value `7`. Reshape it to a 4 x 5 Matrix
-6. Create a matrix of 6 x 6 containing random values between 0 and 1, then print:
+6. Create a 6 x 6 matrix with all numbers up to 36, then print:
 * only the first element on it
 * only the first 2 rows for it
 * only the last 2 rows for it
@@ -50,6 +50,7 @@
 * At first it will resemble a lot like numpy Arrays, but the big difference is that we can assign labels to our n dimensional, making it possible to create DataFrames, a table structure that can be used very similarly to Excel or SQL tables
 * Has many productivity functions to facilitate data visualization, manipulation and cleaning
 * Has many data loaders making it capable of integrating with many sources like csvs, xlsx, sql and html pages
+* Let's take a look together at pandas in the CEBD-1160-code project
 
 1. Load the `insurance.csv` in a DataFrame using pandas. Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`. Use this DataFrame for the following exercises.
 2. Print only the column `age`
