@@ -67,11 +67,12 @@
 
 ### Plotting Charts with MatPlotLib
 * Use the Matplotlib library to generate simple plots from Datasets
-* one of the main libraries for scientifical data exploration, allows for quick prototyping and has all basic functionalities
-* was built with the MATLAB interface as a reference
-* compatible with Jupyter notebooks, facilitating it's usage on interactive python clients
-* has a very rich gallery page with tons of examples that can be copied and modified
-* allows users to save figures in high resolution for printing and supports many different formats
+* One of the main libraries for scientifical data exploration, allows for quick prototyping and has all basic functionalities
+* Was built with the MATLAB interface as a reference
+* Compatible with Jupyter notebooks, facilitating it's usage on interactive python clients
+* Has a very rich gallery page with tons of examples that can be copied and modified
+* Allows users to save figures in high resolution for printing and supports many different formats
+* Let's take a look together at matplotlib in the CEBD-1160-code project
 
 1. Still using the same DataFrame from the previous exercise `insurance.csv` plot the chart for `charges` and save it as `charges_plot.png`
 2. plot the histogram for `bmi` and save it as `bmi_hist.png`
