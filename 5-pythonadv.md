@@ -77,7 +77,7 @@
 
 1. Still using the same DataFrame from the previous exercise `insurance.csv` plot the chart for `charges` and save it as `charges_plot.png`
 2. plot the histogram for `bmi` and save it as `bmi_hist.png`
-3. plot the scatterplot for `age` vs `charge` and save it as `age_charge_scatter.png`
+3. plot the scatterplot for `age` vs `charges` and save it as `age_charge_scatter.png`
 4. Re-do the previous items, adding the title, x label and y label for each item.
 5. Plot other data facts that might interest you. Can you explain why the correlation didn't show the same results as the charts show? How could we fix this?
 
