@@ -79,7 +79,7 @@
 2. plot the histogram for `bmi` and save it as `bmi_hist.png`
 3. plot the scatterplot for `age` vs `charges` and save it as `age_charge_scatter.png`
 4. Re-do the previous items, adding the title, x label and y label for each item.
-5. Plot other data facts that might interest you. Can you explain why the correlation didn't show the same results as the charts show? How could we fix this?
+5. Plot other data facts that might interest you. Do the plots match what we saw with the correlation function?
 
 ### Final Notes on Python Libraries
 * These utilities are widely used in the industry and represent some of the most essential building blocks for data analysis
