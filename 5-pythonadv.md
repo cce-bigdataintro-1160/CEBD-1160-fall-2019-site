@@ -18,7 +18,7 @@
 * you can check the available methods in each lib by using the functions `dir` and `help` or using your IDE (PyCharm) help
 * Let's take a look together at the standard libraries `time`, `random`, `os` and `sys` in the CEBD-1160-code project
 
-1. In `python-notebook` project do the following exercise in pairs:
+1. In `pandas-notebook` project do the following exercise in pairs:
 2. Write a python script that prints a message every 3 seconds 
 3. Add a random number to your message.
 4. Allow the user to provide a string argument that gets added to your message
@@ -30,7 +30,7 @@
 * Many Data Science libs like pandas, sklearn and matplotlib rely on Numpy as base, and consequently take Numpy Arrays as inputs and outputs to it's methods
 * Let's take a look together at numpy in the CEBD-1160-code project
 
-1. In `python-notebook` project do the following exercise in pairs:
+1. In `pandas-notebook` project do the following exercise in pairs:
 1. Create your first array with the elements `[1,22.4,5,35,4,6.7,3,8,40]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and  `dtype`.
 2. Create your first matrix with the elements `[['a', 'b'],['c', 'd'],[3, 3]]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and `dtype`
 3. Create numpy 1 dimension array using each of the functions `arange` and `rand`
@@ -52,11 +52,12 @@
 * Has many data loaders making it capable of integrating with many sources like csvs, xlsx, sql and html pages
 * Let's take a look together at pandas in the CEBD-1160-code project
 
-1. Load the `insurance.csv` in a DataFrame using pandas. Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`. Use this DataFrame for the following exercises.
-2. Print only the column `age`
-3. Print only the columns `age`,`children` and `charges`
-4. Print only the first 5 lines and only the columns `age`,`children` and `charges`
-5. What is the average, minimum and maximum `charges` ?
+1. In `pandas-notebook` project do the following exercise in pairs
+2. Load the `insurance.csv` in a DataFrame using pandas. Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`. Use this DataFrame for the following exercises.
+3. Print only the column `age`
+4. Print only the columns `age`,`children` and `charges`
+5. Print only the first 5 lines and only the columns `age`,`children` and `charges`
+6. What is the average, minimum and maximum `charges` ?
 7. What is the `age` and `sex` of the person that paid `10797.3362`. Was he/she a smoker?
 8. What is the `age` of the person who paid the maximum charge?
 9. How many insured people do we have for each `region`?
