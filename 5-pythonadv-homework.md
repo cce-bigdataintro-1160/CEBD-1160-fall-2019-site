@@ -39,27 +39,40 @@ And don't hesitate if you have questions! Next class we finally meets pandas!:pa
 
 
 
+Hey everyone!! Hope you enjoyed meeting pandas and other Python libraries. We've put another tool in our toolbox to play with datasets, and this time a pretty powerful one. :wrench::hammer:
+As always, don't forget to fill up the Weekly Journal @ https://forms.gle/QAe9Dm54xNwUxZqZ !!!!
 
-### Homework
-* Don't forget to fill up the Weekly Journal! 
+Here's the homework for this week:
 
-##### Basic
-1. Create a python script `dataset-processor.py` in the repo `class5-homework`. Your script should:
-  * load the dataset
-  * organize the data in a table-like format
-  * compute and print summary statistics 
-  * Visualize the data, 1-feature (column) at a time, i.e. line or histogram and save the figures to files 
-  * Visualize the data, 2-features (columns) at a time i.e. scatter plot and save the figures to files
-  * Optional: plot as many charts as you want! Why not to loop over all columns plotting multiple charts?
-  * The dataset used should be the same dataset you chose for your final project!!!
-2. Add a section at the end of your `README.md` explaining me how to run the file.
+*PREPARATION*
+Create a new repository on GitHub called pandas-homework and clone it locally.
+Use this repository to push all the scripts for this week's homework. Send me the link your repository after you are done!
 
-##### Advanced
-1. Add code for adding header data to your table(dataframe) if necessary
+*BASIC*
+1. Do exercises 1-7 (all) from the `Numerical Analysis with Numpy Arrays` section on the https://cce-bigdataintro-1160.github.io/CEBD-1160-fall-2019-site/5-pythonadv.html:
+You can put all the solutions in a single script named `numpy-exercises.py`. If you prefer, you can split it into multiple scripts for each exercise like `numpy-exercises-1.py` ... `numpy-exercises-n.py`
 
-##### Reach
-1. Add an additional type of plot other than scatterplot (Google to find plot types of interest) for visualizing 2 or more of the features(columns) at a time. Please clearly express either in comments in the code or in your README.md what's the additional plot you chose.
+2. Do exercises 1-12 (all) from the `DataFrames with Pandas` section on the https://cce-bigdataintro-1160.github.io/CEBD-1160-fall-2019-site/5-pythonadv.html:
 
-* Recommendation: for all homework, plan to use `matplotlib` for plotting
+You can put all the solutions in a single script named `pandas-exercises.py`. If you prefer, you can split it into multiple scripts for each exercise like `pandas-exercises-1.py` ... `pandas-exercises-n.py`
 
-* Extra challenge: make your `dataset-processor.py` capable of receiving a file name and a header file name as arguments to make it generic for any dataset, take a look at the class4-homework repository, adv_reach lesson for guidance.
+*ADVANCED*
+1. This step should help you kickoff the final project for the course. All the steps should be done on the dataset you chose earlier in the course.
+2. Create a python script `myproject.py`. Your script should:
+  * load and organize the data in a pandas data frame format, please notice that some datasets will require that you manually fix the headers as they're not present in the dataset.
+    * Tip: For the boston dataset, your separator will be `sep='\\s+'`. This will mitigate the problem with multiple spaces!
+    * Tip: In order to fix the column names, you might have to manually assign the values to it as in the examples!
+  * compute and print information and summary statistics on the dataset
+  * compute and print correlations on the dataset
+
+*REACH*
+Both reach exercises involve updating your `myproject.py` script from the Advanced section.
+1. Using the examples in 9-matplotlib_plotting.py as a reference, update your `myproject.py` and add:
+  * Reference material https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/4-python-advanced-notebook/9-matplotlib_plotting.py
+  * Save an image plotting any 1 column from your dataset (line plot or histogram)
+  * Save an image plotting any 2 columns from your dataset (scatterplot)
+2. [Optional challenge] Update your `myproject.py` to make it capable of receiving arguments to make it generic for other datasets
+
+Don't forget to check at the reference codes we saw in the class to help you do the https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/tree/master/4-python-advanced-notebook !:book:
+
+And don't hesitate if you have questions! Next class we start on data visualization!:bar_chart::chart_with_upwards_trend:
