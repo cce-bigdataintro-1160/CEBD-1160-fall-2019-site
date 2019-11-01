@@ -37,7 +37,7 @@ By the end of this class you'll be able to:
   * Explore datasets through plots
   * Add multiple plots to the same subplot(ax)
 
-1. Using the dataset you chose for your project. Plot one chart of each type:
+1. Using the dataset you chose for your project. User `plt.show()` to plot one chart of each type:
   - line `plot` passing one column(feature)
   - `scatter` plot passing two columns(features)
 2. Make sure to add a `title`, `xlabel` and `ylabel` on each of the previous plots
@@ -47,7 +47,7 @@ By the end of this class you'll be able to:
 * In order to do it first set it to a fixed value, like `s=10`. 
 * Now try to set it to the value of another column of your dataset, like `s=df['<other column>']`. 
 * What is the difference between those two techniques?
-6. Do a multifeature plot! Plot 3+ `scatter` plots on the same `ax` comparing one variable to other columns at the same time. Make sure to add a `legend` to make your multifeature chart easier to read.
+6. Do a multifeature plot! Plot 2+ overlapping `scatter` plots comparing one column to two other columns at the same time. Make sure to add a `legend` to make your multifeature chart easier to read.
 7. Modify the previous chart from 6. to use the `s`(size) and `color` parameters.
 8. Explore your dataset by plotting scatter plots comparing all columns 2 at a time. Tip, use nested for-loops for this!
 
