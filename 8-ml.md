@@ -1,7 +1,6 @@
 # Machine Learning in Big Data
 
 ### Agenda
-* Homework Check
 * Machine Learning Concepts
 * scikit-learn
 * Acquiring and loading data
@@ -10,22 +9,9 @@
 * Logistic Regression
 * About choosing the best algorithms
 * Final Notes on Machine Learning
-* Homework
-
-##### Goals
-Learn what is Machine Learning by understanding its concepts, recognizing the different types of ML problems and the different types of algorithms we can use to solve them. By the end of this class you'll be able to:
-
-* Explain what is Machine Learning
-* Understand ML main concepts and glossary
-* Identify different types of ML problems
-* Understand which algorithms can be applied to each kind of ML problems
-* Apply the algorithms and data preparation techniques to obtain a ML model
-* Predict variables using the generated ML model
-* Measure and compare the quality of ML models
-* Apply these techniques to your final project in order to find the best way to answer your originally formulated question
 
 ##### Machine Learning Concepts
-* [Machine Learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting): High level overview from scikit-learn documentation
+* [What is machine learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting) 
 * It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data, in contrast to regular programs where the programmer has to explicitly write every single instruction.
 
 1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning

@@ -1,29 +1,14 @@
 # Python Data Visualization
 
 ### Agenda
-* Homework Check
 * Visualizing data with Matplotlib
 * Visualizing data with Seaborn
 * About choosing the right plots
 * Final Notes on Python Data Visualization
-* Homework
-
-### Python Data Visualization
-
-##### Goals
-Learn techniques for plotting different charts using numpy arrays and pandas dataframes. 
-By the end of this class you'll be able to:
-* Understand matplotlib basic objects: figures and axes
-* Create simple line plots using matplotlib
-* Save matplotlib pictures to a local directory
-* Decorate and customize charts
-* Perform visual exploration on datasets in order to extract insights
-* Bring your plotting to the next level using seaborn
-* Apply these techniques to your final project in order to answer your originally formulated question
 
 ##### Visualizing data with Matplotlib
 * [matplotlib](https://matplotlib.org/index.html): Matplotlib official page
-* [Anatomy of a Figure](https://matplotlib.org/_images/anatomy.png): the anatomy of a matplotlib plot
+* [Anatomy of a Figure](https://matplotlib.org/_images/anatomy.png): Understand matplotlib basic objects: figures and axes
 
 * Besides what we learned in last class, it's possible to create plots in matplotlib using a few different syntaxes
 * We can generate grids with multiple plots and arrange the layout in different ways
