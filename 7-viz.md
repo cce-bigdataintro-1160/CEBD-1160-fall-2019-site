@@ -6,7 +6,7 @@
 * About choosing the right plots
 * Final Notes on Python Data Visualization
 
-##### Visualizing data with Matplotlib
+### Visualizing data with Matplotlib
 * [matplotlib](https://matplotlib.org/index.html): Matplotlib official page
 * [Anatomy of a Figure](https://matplotlib.org/_images/anatomy.png): Understand matplotlib basic objects: figures and axes
 
@@ -36,7 +36,7 @@
 7. Modify the previous chart from 6. to use the `s`(size) and `color` parameters.
 8. Explore your dataset by plotting scatter plots comparing all columns 2 at a time. Tip, use nested for-loops for this!
 
-##### Visualizing data with Seaborn
+### Visualizing data with Seaborn
 * [seaborn](https://seaborn.pydata.org/): Seaborn official page
 * [seaborn Examples Gallery](https://seaborn.pydata.org/examples/index.html): gallery with examples for reference
 * [matplotlib cmaps](https://matplotlib.org/tutorials/colors/colormaps.html): matplotlib color maps to customize the seaborn plots color scheme
@@ -56,7 +56,7 @@
 3. Create a correlation heatmap using `sns.heatmap`. Pass in the df.corr() to see the correlation heatmap for all of yours features!
 4. Create the `sns.pairplot` for your entire dataset
 
-##### About choosing the right plots
+### About choosing the right plots
 * [Chart Suggestions](./viz-files/Advanced Presentation by Design - Chart.pdf): Chart suggestions from Advanced Presentation by Design by Andre Abela
 * [Chart Suggestions Simplified](./viz-files/Graph Cheat Sheet.pdf): Simplified version of the chart suggestions
 * [Charting Trends](https://trends.google.com/trends/explore?date=2018-03-03%202019-05-18&geo=US&q=matplotlib,seaborn,plotly,ggplot): Trends on the utilisation of charting libs
@@ -71,7 +71,7 @@
   * [Wine] To display what's the share of each class of Wine?
   * [Cancer] To display the relationship between 3+ features at the same time?
 
-##### Final Notes on Python Data Visualization
+### Final Notes on Python Data Visualization
 * All the concepts we're learning today can be applied to a multitude of tools for data visualization, that might differ in features and capabilities but where the basic concepts will be always the same!
 * One important aspect is realize the power of mastering the programatic generation of plots. One can write a generic plotter that can receive many different types of datasets and produce those many plots automatically.
 * Other aspects that can be configured programatically are automation, frequency, scheduling among other customizations

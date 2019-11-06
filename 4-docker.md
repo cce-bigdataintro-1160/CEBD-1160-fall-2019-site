@@ -7,7 +7,7 @@
 
 ### Learning Conteinerization with Docker
 
-##### Goals
+### Goals
 Understand the benefits of conteinerizing processes and how to apply it using Docker. By the end of this class you will be able to:
 * Understand what is conteinerization and why is it necessary
 * Differentiate between images and containers
@@ -22,7 +22,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 * [Docker Hub](https://hub.docker.com): Docker Hub with tons of images available
 * [Docker Trend comparison](https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=docker,big%20data,hadoop,machine%20learning): A trend chard comparing Docker to other important Big Data topics
 
-##### Introducing conteinerization
+### Introducing conteinerization
 * Conteinerization has been one of the most important software operations movement in the past 5 years
 * Its main goal is to lower friction and costs in migrations that used to be extremely long and costly
   - Mainframes
@@ -44,7 +44,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 9. Now start another `hello-world` container using the `--rm` flag. Do you need to remove it after?
 10. Is `hello-world` a 'long running' process or a 'short lived' process?
 
-##### Images VS Containers: Running Existing Images as Containers
+### Images VS Containers: Running Existing Images as Containers
 * [Images and Containers](https://docs.docker.com/v17.09/engine/userguide/storagedriver/imagesandcontainers/): The anatomy of images and containers
 * A Image is a blueprint that allows us to create multiple instances from it. Each instance is called a container.
 * When running a container, we first check if the requested image is available locally. If not, docker searches for it in the specified repository or at DockerHub.
@@ -61,7 +61,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 7. Make sure to stop and remove your containers.
 8. Cleanup your images to avoid consuming too much space now.
 
-##### Creating your own Images and modifying existing Images
+### Creating your own Images and modifying existing Images
 * [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
 * In order to create our own images we have to add a new file to our project: the `Dockerfile`. 
 
@@ -71,7 +71,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 4. Repeat the same steps, but now use a long running process. You can use a `while(True)` loop in  your python script in order to achieve this.
 5. Make sure to cleanup by stopping and removing all containers.
 
-##### Final notes on Docker
+### Final notes on Docker
 * ANY process can be Dockerized and the benefits are many:
   - This makes it not only repeatable but self documented, avoiding invalid documentation
   - All teams in company speak one language: containers

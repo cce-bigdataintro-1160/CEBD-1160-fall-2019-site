@@ -10,7 +10,7 @@
 * About choosing the best algorithms
 * Final Notes on Machine Learning
 
-##### Machine Learning Concepts
+### Machine Learning Concepts
 * [What is machine learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting) 
 * It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data, in contrast to regular programs where the programmer has to explicitly write every single instruction.
 * To put it very simply: ML is a subfield in AI that studies the algorithms that can create functions that predict/classify data.
@@ -31,7 +31,7 @@
 * A general Machine Learning Process Lifecycle
 ![](ml-files/Slide1.jpeg?raw=true)
 
-##### scikit-learn
+### scikit-learn
 * [sklearn tutorial](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings): tutorial showing how to use python and sklearn to solve ML problems
 * [sci-kit learn testimonials](https://scikit-learn.org/stable/testimonials/testimonials.html): Non-exhaustive list of companies using sci kit learn
 
@@ -40,7 +40,7 @@
 * sklearn has [estimators](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) that expose a standardized interface for each ML algorithm
 * Handles most modern ML algorithms, except Deep Learning, where Tensor Flow, Keras and PyTorch take place
 
-##### Acquiring and loading data
+### Acquiring and loading data
 * [Loading External Datasets](https://scikit-learn.org/stable/datasets/index.html#external-datasets): sklearn recommended ways to load datasets
 
 * Generally, scikit-learn works on any numeric data stored as numpy arrays or scipy sparse matrices. Other types that are convertible to numeric arrays such as pandas DataFrame are also acceptable
@@ -52,7 +52,7 @@
 2. Assign the `data` to a variable named X representing our samples
 3. Assign the `target` to a variable named y representing our targets
 
-##### Preparing the data
+### Preparing the data
 * Data preparation and cleaning can be one of the most time consuming part of a ML process
 * The first step is to visualize and make sure that you have a conceptual understanding of what each column represents towards your final objective. All tools we learned in the last classes are essential in this step: 
   * pandas DataFrames summaries, statistics and correlation
@@ -72,7 +72,7 @@
 
 1. For your chosen dataset, create the train and test splits. Print the shape of the full initial dataset and then the shape of each of the 4 split datasets `X_train, X_test, y_train, y_test`
 
-##### Supervised Learning: Linear Regression - for Regression problems
+### Supervised Learning: Linear Regression - for Regression problems
 * [Linear regression, or least squares method](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_linear_regression.html#a-simple-linear-regression) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict continuous features
 * We'll use labelled data to try to predict unlabelled data values using known feature values 
 * The simplest form of Linear Regression can be defined by the formula `Y = a + bX` whereas the Least Squares algorithm is applied until an optimal fit is found
@@ -89,7 +89,7 @@
 1. Plot a scatter plot comparing your test targets versus your predicted targets
 2. Print the resulting RMSE (Root Mean Square Error). In order to improve this model should we increase or decrease the RMSE?
 
-##### Logistic Regression - for Classification problems
+### Logistic Regression - for Classification problems
 * [Logistic regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_knn.html) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict categorical features
 * Adds [Sigmoid/Logistic](https://en.wikipedia.org/wiki/Sigmoid_function) function over the linear regression, limiting the result in a score from 0 to 1. We then set a threshold to define whether an item belongs to a class or not
 * We'll use labelled data to try to predict unlabelled data class/categories using known feature values
@@ -106,13 +106,13 @@
 1. Print your model score, classification_report and confusion_matrix
 2. Print the resulting f1-score for your model In order to improve this model should we increase or decrease the f1-score?
 
-##### About choosing the best algorithms
+### About choosing the best algorithms
 * [scikit-learn algorithm cheatsheet](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html): excellent starting point for deciding which algorithm to use when training models
 * [Supervised Learning algorithms](https://scikit-learn.org/stable/supervised_learning.html): sklearn list of supervised learning algorithms
 * Scikit-learn strives to have a uniform [interface](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) making it exceptionally easy to try different algorithms
 * But selecting hyperparameters can be a way more challenging task as these can be specific for each algorithm, and due to the fact that more complexity leads to the overfitting and underfitting problem
 
-##### Final Notes on Machine Learning
+### Final Notes on Machine Learning
 * We've seen simple forms of ML algorithms, but they can be leveraged with hundreds, thousands or millions of features
 
 * Examples of Supervised Learning

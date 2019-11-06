@@ -20,8 +20,8 @@
 5. [Python Libraries for Data Manipulation](./5-pythonadv.md)
 6. [Python Data Visualization](./7-viz.md)
 7. [Python Machine Learning](./8-ml.md)
-8. [Containerization & Shipping Software](./10-docker.md)
-9. [Applications of Data Science](./9-other-techs.md)
+8. [Data Preparation](./9-data-preparation.md)
+9. [Containerization & Shipping Software](./4-docker.md)
 10. [Project](./10-project.md)
 
 ## Evaluation

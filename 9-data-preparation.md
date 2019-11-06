@@ -1,14 +1,12 @@
-# Applications of Data Science
+# Data Preparation
 
 ### Agenda
-* Homework Check
 * Pandas Dataframes manipulation techniques
 * Data cleanup and preparation for sklearn
 * Where do I go from here?
-* Final Project
 
-##### Goals
-Goal for today will be to review the topics above, discuss everything we learned so far and what can we do from here.
+##### Data preparation
+Goal for today will be to review everything we learned so far, play with data preparation and see what can we do from here.
 Oh, almost forgot! And kickoff the final project development!
 
 ##### Pandas DataFrames manipulation, cleanup and preparation
@@ -28,7 +26,7 @@ Oh, almost forgot! And kickoff the final project development!
 * This way we should have only numerical values for sklearn
 
 ##### Additional Exercises Material
-* [Putting it all together...](./9-other-techs-exercises.md)
+* [Putting it all together...](./9-data-preparation-exercises.md)
 * Don't hesitate to consult the material from previous classes to do the exercise!
 
 ##### Where do I go from here?
