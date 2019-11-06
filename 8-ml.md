@@ -11,9 +11,8 @@
 * Final Notes on Machine Learning
 
 ### Machine Learning Concepts
-* [What is machine learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting) 
+* Machine learning is an Artificial Inteligence subfield, that focuses on the study of algorithms that can create models to predict or group data by inferring information from existing data
 * It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data, in contrast to regular programs where the programmer has to explicitly write every single instruction.
-* To put it very simply: ML is a subfield in AI that studies the algorithms that can create functions that predict/classify data.
 
 1. In groups of two, take ten minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning
 2. Can you convert a regression problem into a classification problem? When would that be interesting?
@@ -45,7 +44,8 @@
 
 * Generally, scikit-learn works on any numeric data stored as numpy arrays or scipy sparse matrices. Other types that are convertible to numeric arrays such as pandas DataFrame are also acceptable
 * Using one of the many pandas read methods is a great start: 'read_csv', 'read_excel', 'read_html', 'read_json', 'read_parquet', 'read_sql', 'read_sql_query', 'read_sql_table' and 'read_table'. Besides these there are other libs capable of loading virtually any type of data!
-* Important aspect: size and bias of data
+* Data has to be large enough to allow algorithms to converge, but handling large volumes of data can be cumbersome. Ideal size is on a case-by-case basis, but should be as little as necessary.
+* Too small datasets can lead to biases and consequently invalid prediction models
 * For the class and project we'll now [load our data straight from sklearn sample datasets](http://scipy-lectures.org/packages/scikit-learn/index.html#loading-the-iris-data-with-scikit-learn), as that data has been already prepared for running ml algorithms 
 
 1. Load your chosen dataset using the the sklearn dataset load methods. Now print the loaded dataset `keys()`, `data.shape`, `target.shape` and `feature_names`
@@ -143,6 +143,7 @@
 * Another important aspect is the capability of models to be [persisted](https://scikit-learn.org/stable/modules/model_persistence.html) for later deployment/use
 
 ### Recommended Readings
+* [What is machine learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
 * [ML Glossary](https://developers.google.com/machine-learning/glossary/): A very extensive glossary for Machine Learning Concepts
 * [sklearn tutorials](https://scikit-learn.org/stable/tutorial/index.html): Many sklearn tutorials including how to work with textual data and some video resources
 * [Free Machine Learning Books](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md): Extensive list of free ML books
