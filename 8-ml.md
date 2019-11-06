@@ -13,8 +13,9 @@
 ##### Machine Learning Concepts
 * [What is machine learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting) 
 * It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data, in contrast to regular programs where the programmer has to explicitly write every single instruction.
+* To put it very simply: ML is a subfield in AI that studies the algorithms that can create functions that predict/classify data.
 
-1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning
+1. In groups of two, take ten minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning
 2. Can you convert a regression problem into a classification problem? When would that be interesting?
 
 * We'll be focusing on Supervised Learning, in particular regression and classification problems
@@ -32,6 +33,7 @@
 
 ##### scikit-learn
 * [sklearn tutorial](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings): tutorial showing how to use python and sklearn to solve ML problems
+* [sci-kit learn testimonials](https://scikit-learn.org/stable/testimonials/testimonials.html): Non-exhaustive list of companies using sci kit learn
 
 * The scikit-learn project started as scikits.learn, a Google Summer of Code project, now under active community development. It's widely used as one of the simplest and most effective tools to practice Machine Learning
 * It's based on numpy and pandas, making it easy to use and compatible with matplotlib and seaborn. Between it's advantages it's based on fairly high level concepts with an easy to use interface
@@ -71,7 +73,8 @@
 1. For your chosen dataset, create the train and test splits. Print the shape of the full initial dataset and then the shape of each of the 4 split datasets `X_train, X_test, y_train, y_test`
 
 ##### Supervised Learning: Linear Regression - for Regression problems
-* [Linear regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_linear_regression.html#a-simple-linear-regression) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict continuous features
+* [Linear regression, or least squares method](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_linear_regression.html#a-simple-linear-regression) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict continuous features
+* We'll use labelled data to try to predict unlabelled data values using known feature values 
 * The simplest form of Linear Regression can be defined by the formula `Y = a + bX` whereas the Least Squares algorithm is applied until an optimal fit is found
 * Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
 
@@ -89,6 +92,7 @@
 ##### Logistic Regression - for Classification problems
 * [Logistic regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_knn.html) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict categorical features
 * Adds [Sigmoid/Logistic](https://en.wikipedia.org/wiki/Sigmoid_function) function over the linear regression, limiting the result in a score from 0 to 1. We then set a threshold to define whether an item belongs to a class or not
+* We'll use labelled data to try to predict unlabelled data class/categories using known feature values
 * On multiclass linear regression, the class with the highest probability "wins"
 * Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
 
