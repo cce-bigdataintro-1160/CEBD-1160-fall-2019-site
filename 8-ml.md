@@ -76,6 +76,7 @@
 * [Linear regression, or least squares method](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_linear_regression.html#a-simple-linear-regression) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict continuous features
 * We'll use labelled data to try to predict unlabelled data values using known feature values 
 * The simplest form of Linear Regression can be defined by the formula `Y = a + bX` whereas the Least Squares algorithm is applied until an optimal fit is found
+![](ml-files/linear-regression.png?raw=true)
 * Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
 
 1. Using either the boston or diabetes datasets train a Linear Regression Model
@@ -91,9 +92,10 @@
 
 ### Logistic Regression - for Classification problems
 * [Logistic regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_knn.html) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict categorical features
-* Adds [Sigmoid/Logistic](https://en.wikipedia.org/wiki/Sigmoid_function) function over the linear regression, limiting the result in a score from 0 to 1. We then set a threshold to define whether an item belongs to a class or not
+* Because Linear Regression is unsuitable to predict the probability of a target, Logistic Regression adds [Sigmoid/Logistic](https://en.wikipedia.org/wiki/Sigmoid_function) function over the linear regression, limiting the result in a probability score from 0 to 1 
 * We'll use labelled data to try to predict unlabelled data class/categories using known feature values
 * On multiclass linear regression, the class with the highest probability "wins"
+![](ml-files/logistic-regression.png?raw=true)
 * Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
 
 1. Using either the iris, cancer or wine datasets train a Logistic Regression Model
