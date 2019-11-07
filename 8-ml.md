@@ -141,7 +141,8 @@
   * sentiments analysis  
   * computer vision
 
-* Another important aspect is the capability of models to be [persisted](https://scikit-learn.org/stable/modules/model_persistence.html) for later deployment/use
+* Another important aspect is the capability of models to be [persisted](https://scikit-learn.org/stable/modules/model_persistence.html) 
+* This allows for later [serving](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) the model on a api!
 
 ### Recommended Readings
 * [What is machine learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
