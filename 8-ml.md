@@ -101,7 +101,6 @@
 1. Using either the iris, cancer or wine datasets train a Logistic Regression Model
 2. Print the resulting coeficients of your model
 
-
 * [Measuring classification results with sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): how to analyse the metrics returned by the `metrics.classification_report`
 * [Measuring classification results explained](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9): Reference explaining the difference between Accuracy, Precision, Recall and the F1Score on classification
 
