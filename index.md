@@ -3,6 +3,7 @@
 ## Links
 * [Weekly Journal](https://forms.gle/QAe9Dm54xNwUxZqZA)
 * [Ice Breaker Survey](https://forms.gle/TR2QyAsCyKsi11PMA)
+* [Course links](./links.md)
 
 ## Communication
 * [Slack Channel Invitation](https://join.slack.com/t/cebd1160-fall2019/shared_invite/enQtNzI2NTU3NjAwNTMyLWY3OTQ4ZDAzYWRhNTdiYzc1NTFjNTI3NmE2YjMyYjI5NDAxZmM2OGVmNTJhZGZiN2M5YTBjM2Q4ZGQ5NzM2ZmM)
