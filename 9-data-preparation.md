@@ -63,6 +63,7 @@ Goal for today will be to review everything we learned so far, play with data pr
 * Back your claims using plots and data obtained using your dataset analysis skills
 * Make sure to add references for libraries and methods you're using  
 * You can look for other people that "solved" your dataset on Google. You might find many ideas that you hadn't thought of!
+* The objective will be to both start your data skills portfolio and also exercise your data presenting(and storytelling) skills! 
 * Use [markdown](https://guides.github.com/features/mastering-markdown/) formatting to make your project look good, by creating sections and embedding pictures.
 
 * FAQ
@@ -108,11 +109,13 @@ Goal for today will be to review everything we learned so far, play with data pr
     * compare different algorithms and hyperparameters to find out what are the best solutions for your problem
     * analyze some discrepancy in your data (for example, if you expected some feature to have high impact on your prediction, but it doesn't, you could analyze what's the cause of that)
     * optimize what's the combination of features that can lead you to the best performance
-    * transform your dataset to enrich it during the preparation phase 
+    * transform your dataset to enrich it during the preparation phase
+    * challenge your own results and question with other data (maybe even external data)
 
 ### About 
 * [How to show you master bigdata](https://pixelastic.github.io/pokemonorbigdata/)
 * [Database Ranking](https://db-engines.com/en/ranking)
 * [A ton of big data related technologies](https://github.com/onurakpolat/awesome-bigdata)
+* [Draft for professsions](./10-professions.md)
 
 [Back To Main Page](./index.md)
