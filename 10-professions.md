@@ -1,5 +1,7 @@
 ## Technical Diploma
 
+![](prof-files/Picture1.png)
+
 #### Big Data Infrastrucre
  
 Data Ops/Data Engineer/Data Architect - design and build data pipelines, creates data pipeline software
@@ -37,5 +39,7 @@ Data Visualization Developer (Reporting Developer) - creates/automates reports a
 Business Analytics Specialist - bridges business and data analysis 
 - Access, excel, SQL, sharepoint
 - Domain knowledge
+
+* Too difficult to master all skills, ideally select companies you'd like to work for, find out their tooling (indeed, contact directly) and focus on learning what's needed!
 
 Google for: infographic data science vs data engineer
