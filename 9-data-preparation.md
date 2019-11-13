@@ -35,6 +35,8 @@ Goal for today will be to review everything we learned so far, play with data pr
 * Using the `%matplotlib inline` directive, all plots will be immediatelly plotted in Jupyter!   
 * Let's re-do some of our examples using a Jupyter Notebook now.
 
+1. What are activities are easier to do in Jupyter using notebooks? What activities are easier to do in PyCharm using scripts? 
+
 ### Additional Exercises Material
 * [Putting it all together...](./9-data-preparation-exercises.md)
 * Don't hesitate to consult the material from previous classes to do the exercise!
