@@ -37,10 +37,6 @@ Goal for today will be to review everything we learned so far, play with data pr
 
 1. What are activities are easier to do in Jupyter using notebooks? What activities are easier to do in PyCharm using scripts? 
 
-### Additional Exercises Material
-* [Putting it all together...](./9-data-preparation-exercises.md)
-* Don't hesitate to consult the material from previous classes to do the exercise!
-
 ### Where do I go from here?
 * Well, this will depend a lot on where do you want to go :)
 * A few more guided exercises to warmup: [Data Carpentry](https://datacarpentry.org/lessons/)
@@ -54,6 +50,10 @@ Goal for today will be to review everything we learned so far, play with data pr
 
 * [Reality will be more like](https://media.giphy.com/media/3o85xxSZvFZgD4wXde/giphy.gif) 
 * ...but persist!!!
+
+### Additional Exercises Material
+* [Putting it all together...](./9-data-preparation-exercises.md)
+* Don't hesitate to consult the material from previous classes to do the exercise!
 
 ### Final Project
 * [Final project instructions/template](https://github.com/cce-bigdataintro-1160/cebd1160_project_template)
