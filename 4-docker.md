@@ -4,18 +4,22 @@
 * Introducing conteinerization
 * Images VS Containers: Running Existing Images as Containers
 * Creating your own Images and modifying existing Images
-* Learning Conteinerization with Docker
 
 ### Introducing conteinerization
 * Conteinerization has been one of the most important software operations movement in the past 5 years
+* Consists of packaging a process and its dependencies, allowing it to run uniformly and consistently on any infrastructure because the process carries its own environment description with it
+* Its a lightweight alternative to traditional virtualization, because it can share the kernel and other layers with the host and other containers
 * Its main goal is to lower friction and costs in migrations that used to be extremely long and costly
   - Mainframes
   - Baremetal Datacenters
   - VMs
   - Cloud
-  - Dev, Testing and Production environments
-* It achieves it by making it transparent to the operator where the container is running because the process carries its own environment description with it
+  - Dev, Testing and Production environments (mitigates the infamous "it runs on my machine" problem)
+* A container usually will contain code, runtime, system tools, system libraries and settings
 * There are short lived and long running Docker processes  
+
+* [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
+* [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
 
 1. Check your `docker version`
 2. Check your `docker info`
@@ -55,8 +59,6 @@
 4. Repeat the same steps, but now use a long running process. You can use a `while(True)` loop in  your python script in order to achieve this.
 5. Make sure to cleanup by stopping and removing all containers.
 
-* [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
-* [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
 * [Docker Hub](https://hub.docker.com): Docker Hub with tons of images available
 * [Docker Trend comparison](https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=docker,big%20data,hadoop,machine%20learning): A trend chard comparing Docker to other important Big Data topics
 
