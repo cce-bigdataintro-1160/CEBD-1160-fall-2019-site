@@ -1,26 +1,10 @@
 # Intro 2 Containerization & Shipping Software
 
 ### Agenda
-* Homework Check
+* Introducing conteinerization
+* Images VS Containers: Running Existing Images as Containers
+* Creating your own Images and modifying existing Images
 * Learning Conteinerization with Docker
-* Homework
-
-### Learning Conteinerization with Docker
-
-### Goals
-Understand the benefits of conteinerizing processes and how to apply it using Docker. By the end of this class you will be able to:
-* Understand what is conteinerization and why is it necessary
-* Differentiate between images and containers
-* Build new images
-* Run and manage the conteiners lifecycle
-* Create your own images and run them as containers
-* Be able to navigate and use the Docker Hub to spin up production ready containers directly from it
-* Conteinerize your final project so that it can be easily ran by any person on any environment
-
-* [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
-* [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
-* [Docker Hub](https://hub.docker.com): Docker Hub with tons of images available
-* [Docker Trend comparison](https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=docker,big%20data,hadoop,machine%20learning): A trend chard comparing Docker to other important Big Data topics
 
 ### Introducing conteinerization
 * Conteinerization has been one of the most important software operations movement in the past 5 years
@@ -71,6 +55,14 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 4. Repeat the same steps, but now use a long running process. You can use a `while(True)` loop in  your python script in order to achieve this.
 5. Make sure to cleanup by stopping and removing all containers.
 
+* [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
+* [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
+* [Docker Hub](https://hub.docker.com): Docker Hub with tons of images available
+* [Docker Trend comparison](https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=docker,big%20data,hadoop,machine%20learning): A trend chard comparing Docker to other important Big Data topics
+
+* Be able to navigate and use the Docker Hub to spin up production ready containers directly from it
+* Conteinerize your final project so that it can be easily executed by on any environment
+
 ### Final notes on Docker
 * ANY process can be Dockerized and the benefits are many:
   - This makes it not only repeatable but self documented, avoiding invalid documentation
@@ -81,6 +73,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
   - That don't require native libs compatibility
   - To testing apps in different environments at a low cost (OS, DBs, Hadoop, etc)
   - To facilitate CI/CD: automated testing suites, packaging, building and deployment to final environments
+* Another advantage of docker containers in the BigData context: shipping data can be expensive, so we ship the applications
 * You can find references for many Dockerfiles in the Official Images Docker Library, for example: [Python Docker Image](https://github.com/docker-library/python)
 
 ### Additional Exercises Material
