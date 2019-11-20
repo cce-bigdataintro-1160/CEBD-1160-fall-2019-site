@@ -18,8 +18,11 @@
 * A container usually will contain code, runtime, system tools, system libraries and settings
 * There are short lived and long running Docker processes  
 
-* [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
-* [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
+     ![](./docker-files/VM.png)![](./docker-files/VM.png)
+
+* We can operate docker containers using the docker CLI
+
+     ![](./docker-files/engine-components-flow.png)
 
 1. Check your `docker version`
 2. Check your `docker info`
@@ -52,6 +55,8 @@
 ### Creating your own Images and modifying existing Images
 * [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
 * In order to create our own images we have to add a new file to our project: the `Dockerfile`. 
+
+     ![](./docker-files/architecture.svg)
 
 1. Write a small python script that only prints `I'm a short lived python script running within a docker container!!!`. Save it as `short-lived.py`
 2. Create a new `Dockerfile` based on the ubuntu linux docker image. This image should always launch your `short-lived.py` script when started. You will need to make sure you install python3 in this image and also to copy your script to the containers.
@@ -86,6 +91,8 @@
 * Research what are the `pandas` and `matplotlib` python libraries and what they're used for
 
 ### Recommended Readings
+* [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
+* [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
 * [Docker Cheatsheet](https://github.com/wsargent/docker-cheat-sheet): All docker commands and cookbook recipes in a single place!
 * [Official docker samples](https://docs.docker.com/samples/): Some Dockerfile samples
 * [Official Images Dockerfiles](https://github.com/docker-library/): Images for the Official Docker Images
