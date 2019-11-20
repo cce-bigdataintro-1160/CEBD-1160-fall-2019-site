@@ -18,7 +18,7 @@
 * A container usually will contain code, runtime, system tools, system libraries and settings
 * There are short lived and long running Docker processes  
 
-     ![](./docker-files/VM.png)![](./docker-files/VM.png)
+     ![](./docker-files/Container.png)
 
 * We can operate docker containers using the docker CLI
 
