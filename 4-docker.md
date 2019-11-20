@@ -36,7 +36,9 @@
 10. Is `hello-world` a 'long running' process or a 'short lived' process?
 
 ### Images VS Containers: Running Existing Images as Containers
-* [Images and Containers](https://docs.docker.com/v17.09/engine/userguide/storagedriver/imagesandcontainers/): The anatomy of images and containers
+
+   ![](./docker-files/container-layers.jpg)
+
 * A Image is a blueprint that allows us to create multiple instances from it. Each instance is called a container.
 * When running a container, we first check if the requested image is available locally. If not, docker searches for it in the specified repository or at DockerHub.
 * Images can be seen as composable layers, and this is one of the biggest factors os success of Docker. Multiple different images can share layers, which saves a lot of space and decreases the load up time.
@@ -93,6 +95,7 @@
 ### Recommended Readings
 * [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
 * [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
+* [Images and Containers](https://docs.docker.com/v17.09/engine/userguide/storagedriver/imagesandcontainers/): The anatomy of images and containers
 * [Docker Cheatsheet](https://github.com/wsargent/docker-cheat-sheet): All docker commands and cookbook recipes in a single place!
 * [Official docker samples](https://docs.docker.com/samples/): Some Dockerfile samples
 * [Official Images Dockerfiles](https://github.com/docker-library/): Images for the Official Docker Images
