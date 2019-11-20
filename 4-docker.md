@@ -9,6 +9,9 @@
 * Conteinerization has been one of the most important software operations movement in the past 5 years
 * Consists of packaging a process and its dependencies, allowing it to run uniformly and consistently on any infrastructure because the process carries its own environment description with it
 * Its a lightweight alternative to traditional virtualization, because it can share the kernel and other layers with the host and other containers
+
+     ![](./docker-files/Container.png)
+     
 * Its main goal is to lower friction and costs in migrations that used to be extremely long and costly
   - Mainframes
   - Baremetal Datacenters
@@ -17,10 +20,7 @@
   - Dev, Testing and Production environments (mitigates the infamous "it runs on my machine" problem)
 * A container usually will contain code, runtime, system tools, system libraries and settings
 * There are short lived and long running Docker processes  
-
-     ![](./docker-files/Container.png)
-
-* We can operate docker containers using the docker CLI
+* We can operate docker containers using the docker CLI, let's take a look at the most used commands
 
      ![](./docker-files/engine-components-flow.png)
 
@@ -56,9 +56,9 @@
 
 ### Creating your own Images and modifying existing Images
 * [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
-* In order to create our own images we have to add a new file to our project: the `Dockerfile`. 
+* In order to create our own images we have to add a new file to our project: the Dockerfile. We'll need to use the `docker build` command in order to build an image from a Dockerfile 
 
-     ![](./docker-files/architecture.svg)
+![](./docker-files/architecture.svg)
 
 1. Write a small python script that only prints `I'm a short lived python script running within a docker container!!!`. Save it as `short-lived.py`
 2. Create a new `Dockerfile` based on the ubuntu linux docker image. This image should always launch your `short-lived.py` script when started. You will need to make sure you install python3 in this image and also to copy your script to the containers.
@@ -87,10 +87,6 @@
 
 ### Additional Exercises Material
 * [Extra exercises](./4-docker-exercises.md): Additional exercises to practice each Docker topic
-
-### Optional homework(no need to submit)
-* Research what are `python functions`
-* Research what are the `pandas` and `matplotlib` python libraries and what they're used for
 
 ### Recommended Readings
 * [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
