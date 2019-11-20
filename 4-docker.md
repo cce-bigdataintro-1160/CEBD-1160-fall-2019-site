@@ -37,12 +37,12 @@
 
 ### Images VS Containers: Running Existing Images as Containers
 
-   ![](./docker-files/container-layers.jpg)
-
 * A Image is a blueprint that allows us to create multiple instances from it. Each instance is called a container.
 * When running a container, we first check if the requested image is available locally. If not, docker searches for it in the specified repository or at DockerHub.
 * Images can be seen as composable layers, and this is one of the biggest factors os success of Docker. Multiple different images can share layers, which saves a lot of space and decreases the load up time.
 * Containers are an ephemeral layer created on top of the image layers just during it's own lifetime.
+
+![](./docker-files/container-layers.jpg)
 
 1. List all the images you have downloaded to your local machine.
 2. List all the containers you have running or stopped on your local machine.
