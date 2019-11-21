@@ -50,9 +50,10 @@
 4. Run the following image using the terminal:
 * nginx (map the port 80:80 from the container)
 5. Test the fact your webservers is up by checking the same url again. You should get a different page now.
-6. List all the images you have downloaded to your local machine. Are there new images here?
-7. Make sure to stop and remove your containers.
-8. Cleanup your images to avoid consuming too much space now.
+6. Run nginx again, but this time run it in detached mode using `-d`, what's the difference?
+7. List all the images you have downloaded to your local machine. Are there new images here?
+8. Make sure to stop and remove your containers.
+9. Cleanup your images to avoid consuming too much space now.
 
 ### Creating your own Images and modifying existing Images
 * [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
