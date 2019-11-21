@@ -56,7 +56,8 @@
 
 ### Creating your own Images and modifying existing Images
 * [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
-* In order to create our own images we have to add a new file to our project: the Dockerfile. We'll need to use the `docker build` command in order to build an image from a Dockerfile 
+* In order to create our own images we have to add a new file to our project: the Dockerfile. We'll need to use the `docker build` command in order to build an image from a Dockerfile
+* We can build upon any existing image, meaning any official image can be extended and customized 
 
 ![](./docker-files/architecture.svg)
 
