@@ -8,6 +8,7 @@
 ### Introducing conteinerization
 * Conteinerization has been one of the most important software operations movement in the past 5 years
 * Consists of packaging a process and its dependencies, allowing it to run uniformly and consistently on any infrastructure because the process carries its own environment description with it
+* A container is a process running in isolation from host os and other containers
 * Its a lightweight alternative to traditional virtualization, because it can share the kernel and other layers with the host and other containers
 
      ![](./docker-files/Container.png)
@@ -21,6 +22,7 @@
 * A container usually will contain code, runtime, system tools, system libraries and settings
 * There are short lived and long running Docker processes  
 * We can operate docker containers using the docker CLI, let's take a look at the most used commands
+* Docker is a platform with multiple parts as we can see below
 
      ![](./docker-files/engine-components-flow.png)
 
